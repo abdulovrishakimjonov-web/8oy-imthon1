@@ -1,0 +1,22 @@
+{
+  "/(main)/adminss/page": "/adminss",
+  "/(main)/asosiy/page": "/asosiy",
+  "/(main)/blog/page": "/blog",
+  "/(main)/contact/page": "/contact",
+  "/(main)/courses/page": "/courses",
+  "/(main)/developer/page": "/developer",
+  "/(main)/groups/page": "/groups",
+  "/(main)/menagers/page": "/menagers",
+  "/(main)/page": "/",
+  "/(main)/payment/page": "/payment",
+  "/(main)/profile/page": "/profile",
+  "/(main)/settings/page": "/settings",
+  "/(main)/students/page": "/students",
+  "/(main)/teachers/[id]/page": "/teachers/[id]",
+  "/(main)/teachers/page": "/teachers",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/auth/sign-in/route": "/api/auth/sign-in",
+  "/login/page": "/login",
+  "/page": "/"
+}

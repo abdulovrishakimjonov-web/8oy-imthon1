@@ -1,0 +1,11 @@
+{
+  "/(main)/adminss/page": "app/(main)/adminss/page.js",
+  "/(main)/menagers/page": "app/(main)/menagers/page.js",
+  "/(main)/profile/page": "app/(main)/profile/page.js",
+  "/(main)/settings/page": "app/(main)/settings/page.js",
+  "/(main)/students/page": "app/(main)/students/page.js",
+  "/(main)/teachers/page": "app/(main)/teachers/page.js",
+  "/api/auth/sign-in/route": "app/api/auth/sign-in/route.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js"
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/%28main%29/developer/page.tsx"],"sourcesContent":["import React from \"react\";\n\nconst Developer = () => {\n  return <div>Developer</div>;\n};\n\nexport default Developer;\n"],"names":[],"mappings":"iYAEkB,IACT,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI"}

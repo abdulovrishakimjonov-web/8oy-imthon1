@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/%28main%29/settings/page.tsx"],"sourcesContent":["import React from \"react\";\n\nconst Settings = () => {\n  return <div>Settings</div>;\n};\n\nexport default Settings;\n"],"names":[],"mappings":"iYAEiB,IACR,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI"}

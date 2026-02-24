@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Acer/Desktop/8-preact-end-main/app/%28main%29/layout.tsx"],"sourcesContent":["\"use client\";\nimport { QueryClient, QueryClientProvider } from \"@tanstack/react-query\";\nimport type { Metadata } from \"next\";\nimport { useState } from \"react\";\n\nexport default function Providers({ children }: { children: React.ReactNode }) {\n  const [queryClient] = useState(() => new QueryClient());\n\n  return (\n    <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>\n  );\n}\n"],"names":[],"mappings":";;;;;AACA;AAAA;AAEA;AAHA;;;;AAKe,SAAS,UAAU,EAAE,QAAQ,EAAiC;IAC3E,MAAM,CAAC,YAAY,GAAG,IAAA,iNAAQ,EAAC,IAAM,IAAI,4LAAW;IAEpD,qBACE,8OAAC,6MAAmB;QAAC,QAAQ;kBAAc;;;;;;AAE/C"}}]
+}
