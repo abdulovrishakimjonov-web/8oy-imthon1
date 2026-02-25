@@ -5,23 +5,19 @@ import axios from "axios";
 import Cookies from "js-cookie";
 import { motion } from "framer-motion";
 import {
-  AreaChart,
-  Area,
-  XAxis,
-  CartesianGrid,
-  Tooltip,
-  ResponsiveContainer,
-} from "recharts";
-import {
   Users,
   GraduationCap,
   Banknote,
   Clock,
-  Zap,
   Activity,
-  Globe,
   ArrowUpRight,
   RefreshCcw,
+  ShieldCheck,
+  Server,
+  Sparkles,
+  TrendingUp,
+  AlertTriangle,
+  CheckCircle2,
 } from "lucide-react";
 
 type Stats = {
@@ -31,20 +27,127 @@ type Stats = {
   debtorsCount: number;
 };
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 14 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.45, ease: "easeOut" } },
+const fade = {
+  hidden: { opacity: 0, y: 10 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.35 } },
 };
 
-const cardPop = {
-  hidden: { opacity: 0, y: 18, scale: 0.98 },
+const card = {
+  hidden: { opacity: 0, y: 14 },
   show: (i: number) => ({
     opacity: 1,
     y: 0,
-    scale: 1,
-    transition: { duration: 0.45, delay: i * 0.06, ease: "easeOut" },
+    transition: { duration: 0.35, delay: i * 0.05 },
   }),
 };
+
+function Skeleton({ className = "" }: { className?: string }) {
+  return <div className={`animate-pulse rounded-lg bg-muted ${className}`} />;
+}
+
+function MiniPill({
+  icon,
+  title,
+  value,
+}: {
+  icon: React.ReactNode;
+  title: string;
+  value: string;
+}) {
+  return (
+    <div className="flex items-center gap-3 rounded-2xl border border-border bg-card px-4 py-3 shadow-sm">
+      <div className="grid h-9 w-9 place-items-center rounded-xl bg-primary/10 text-primary">
+        {icon}
+      </div>
+      <div className="leading-tight">
+        <p className="text-[10px] font-extrabold uppercase tracking-[0.18em] text-muted-foreground">
+          {title}
+        </p>
+        <p className="text-sm font-bold">{value}</p>
+      </div>
+    </div>
+  );
+}
+
+function KPI({
+  title,
+  value,
+  hint,
+  icon,
+  trend,
+  loading,
+}: {
+  title: string;
+  value: string;
+  hint: string;
+  icon: React.ReactNode;
+  trend: string;
+  loading: boolean;
+}) {
+  return (
+    <div className="group rounded-3xl border border-border bg-card p-5 shadow-sm transition hover:shadow-md">
+      <div className="flex items-start justify-between gap-3">
+        <div className="grid h-10 w-10 place-items-center rounded-2xl bg-muted text-foreground">
+          {icon}
+        </div>
+
+        <div className="flex items-center gap-1 rounded-full border border-border bg-background px-2 py-1 text-[10px] font-black uppercase tracking-widest text-muted-foreground">
+          <ArrowUpRight size={12} className="opacity-70" />
+          {trend}
+        </div>
+      </div>
+
+      <p className="mt-4 text-[11px] font-black uppercase tracking-[0.18em] text-muted-foreground">
+        {title}
+      </p>
+
+      <div className="mt-2">
+        {loading ? (
+          <Skeleton className="h-8 w-32" />
+        ) : (
+          <p className="text-2xl font-black tracking-tight">{value}</p>
+        )}
+      </div>
+
+      <p className="mt-2 text-xs text-muted-foreground">{hint}</p>
+    </div>
+  );
+}
+
+function StatLine({
+  label,
+  value,
+  sub,
+  icon,
+  loading,
+}: {
+  label: string;
+  value: string;
+  sub: string;
+  icon: React.ReactNode;
+  loading: boolean;
+}) {
+  return (
+    <div className="flex items-start gap-3 rounded-2xl border border-border bg-background p-4">
+      <div className="mt-0.5 grid h-9 w-9 place-items-center rounded-xl bg-primary/10 text-primary">
+        {icon}
+      </div>
+      <div className="flex-1">
+        <div className="flex items-center justify-between gap-3">
+          <p className="text-[11px] font-black uppercase tracking-[0.18em] text-muted-foreground">
+            {label}
+          </p>
+          {loading ? (
+            <Skeleton className="h-5 w-20" />
+          ) : (
+            <p className="text-sm font-black">{value}</p>
+          )}
+        </div>
+        <p className="mt-1 text-xs text-muted-foreground">{sub}</p>
+      </div>
+    </div>
+  );
+}
 
 export default function Asosiy() {
   const [mounted, setMounted] = useState(false);
@@ -64,363 +167,289 @@ export default function Asosiy() {
 
   const token = useMemo(() => Cookies.get("token"), []);
 
-  const chartData = useMemo(
-    () => [
-      { n: "Du", v: 4000 },
-      { n: "Se", v: 3000 },
-      { n: "Cho", v: 5000 },
-      { n: "Pa", v: 2780 },
-      { n: "Ju", v: 1890 },
-      { n: "Sha", v: 2390 },
-    ],
-    [],
-  );
+  const fetchDashboardData = async () => {
+    if (!token) {
+      setLoading(false);
+      return;
+    }
+
+    setLoading(true);
+    try {
+      const [groupsRes, studentsRes, paymentsRes] = await Promise.all([
+        axios.get(`${BASE_URL}/api/group/get-all-group`, {
+          headers: { Authorization: `Bearer ${token}` },
+        }),
+        axios.get(`${BASE_URL}/api/student/get-all-student`, {
+          headers: { Authorization: `Bearer ${token}` },
+        }),
+        axios.get(`${BASE_URL}/api/payment/get-debtors-student?month=2026-02`, {
+          headers: { Authorization: `Bearer ${token}` },
+        }),
+      ]);
+
+      setStats({
+        activeGroups: groupsRes.data?.data?.length || 0,
+        totalStudents: studentsRes.data?.data?.length || 0,
+        debtorsCount:
+          paymentsRes.data?.data?.length || paymentsRes.data?.length || 0,
+        monthlyRevenue: 45000000, // demo
+      });
+    } catch (error) {
+      console.error("Dashboard xatosi:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   useEffect(() => {
     setMounted(true);
-
-    const fetchDashboardData = async () => {
-      if (!token) {
-        setLoading(false);
-        return;
-      }
-
-      setLoading(true);
-
-      try {
-        const [groupsRes, studentsRes, paymentsRes] = await Promise.all([
-          axios.get(`${BASE_URL}/api/group/get-all-group`, {
-            headers: { Authorization: `Bearer ${token}` },
-          }),
-          axios.get(`${BASE_URL}/api/student/get-all-student`, {
-            headers: { Authorization: `Bearer ${token}` },
-          }),
-          axios.get(
-            `${BASE_URL}/api/payment/get-debtors-student?month=2026-02`,
-            { headers: { Authorization: `Bearer ${token}` } },
-          ),
-        ]);
-
-        setStats({
-          activeGroups: groupsRes.data?.data?.length || 0,
-          totalStudents: studentsRes.data?.data?.length || 0,
-          debtorsCount:
-            paymentsRes.data?.data?.length || paymentsRes.data?.length || 0,
-          monthlyRevenue: 45000000,
-        });
-      } catch (error) {
-        console.error("Dashboard xatosi:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
     fetchDashboardData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [BASE_URL, token]);
 
   if (!mounted) return null;
 
-  const cards = [
-    {
-      label: "Talabalar",
-      value: stats.totalStudents,
-      icon: Users,
-      ring: "ring-blue-500/20",
-      iconBg: "bg-blue-500/10",
-      iconText: "text-blue-500",
-      trend: "+8.2%",
-      trendText: "text-blue-500",
-    },
-    {
-      label: "Guruhlar",
-      value: stats.activeGroups,
-      icon: GraduationCap,
-      ring: "ring-emerald-500/20",
-      iconBg: "bg-emerald-500/10",
-      iconText: "text-emerald-500",
-      trend: "+2.1%",
-      trendText: "text-emerald-500",
-    },
-    {
-      label: "Qarzdorlar",
-      value: stats.debtorsCount,
-      icon: Clock,
-      ring: "ring-rose-500/20",
-      iconBg: "bg-rose-500/10",
-      iconText: "text-rose-500",
-      trend: "-1.4%",
-      trendText: "text-rose-500",
-    },
-    {
-      label: "Oylik Tushum",
-      value: `${stats.monthlyRevenue.toLocaleString()} so'm`,
-      icon: Banknote,
-      ring: "ring-amber-500/25",
-      iconBg: "bg-amber-500/10",
-      iconText: "text-amber-500",
-      trend: "+12.6%",
-      trendText: "text-amber-500",
-    },
-  ] as const;
-
   return (
-    <div className="relative min-h-screen p-4 sm:p-6 lg:p-8 text-foreground overflow-hidden">
-      {/* Background accents */}
-      <div className="pointer-events-none absolute -top-32 left-1/2 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-primary/10 blur-[120px]" />
-      <div className="pointer-events-none absolute -bottom-40 -left-24 h-[520px] w-[520px] rounded-full bg-emerald-500/10 blur-[140px]" />
-      <div className="pointer-events-none absolute -bottom-40 -right-24 h-[520px] w-[520px] rounded-full bg-rose-500/10 blur-[140px]" />
-
-      <div className="relative mx-auto max-w-7xl space-y-6">
-        {/* Header */}
+    <div className="min-h-screen text-foreground">
+      <div className="mx-auto max-w-7xl p-4 sm:p-6 lg:p-8 space-y-6">
+        {/* TOP HERO */}
         <motion.div
-          variants={fadeUp}
+          variants={fade}
           initial="hidden"
           animate="show"
-          className="flex flex-col gap-4 rounded-3xl border border-border bg-card/70 p-5 sm:p-6 shadow-sm backdrop-blur supports-[backdrop-filter]:bg-card/50"
+          className="rounded-[2rem] border border-border bg-card shadow-sm overflow-hidden"
         >
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-            <div>
-              <div className="flex items-center gap-2 text-primary">
-                <Activity size={18} className="opacity-90" />
-                <span className="text-[11px] font-extrabold uppercase tracking-[0.25em] text-muted-foreground">
-                  Dashboard Overview
-                </span>
-              </div>
-
-              <h1 className="mt-2 text-3xl sm:text-4xl font-black tracking-tight">
-                Boshqaruv paneli{" "}
-                <span className="text-primary">statistikasi</span>
-              </h1>
-
-              <p className="mt-2 text-sm text-muted-foreground max-w-xl">
-                Guruhlar, talabalar, qarzdorlar va tushum bo‘yicha umumiy holat.
-              </p>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <div className="hidden sm:flex items-center gap-2 rounded-2xl border border-border bg-background/60 px-4 py-3">
-                <Globe size={16} className="text-primary" />
-                <div className="leading-tight">
-                  <p className="text-[10px] font-black uppercase tracking-widest text-muted-foreground">
-                    Server
-                  </p>
-                  <p className="text-sm font-mono font-bold">Tashkent / UZ</p>
+          <div className="p-5 sm:p-6 lg:p-7">
+            <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5">
+              <div className="min-w-0">
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-3 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-muted-foreground">
+                    <Sparkles size={12} className="text-primary" />
+                    CRM Analytics
+                  </span>
+                  <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-3 py-1 text-[10px] font-black uppercase tracking-[0.22em] text-muted-foreground">
+                    <Activity size={12} className="text-primary" />
+                    Overview
+                  </span>
                 </div>
+
+                <h1 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight">
+                  Boshqaruv paneli
+                  <span className="text-primary"> • </span>
+                  umumiy ko‘rsatkichlar
+                </h1>
+
+                <p className="mt-2 text-sm text-muted-foreground max-w-2xl">
+                  Guruhlar, talabalar, qarzdorlar va tushum bo‘yicha holat.
+                </p>
               </div>
 
-              <div className="flex items-center gap-2 rounded-2xl border border-border bg-background/60 px-4 py-3">
-                <Zap size={16} className="text-yellow-500" />
-                <div className="leading-tight">
-                  <p className="text-[10px] font-black uppercase tracking-widest text-muted-foreground">
-                    Status
-                  </p>
-                  <p className="text-sm font-bold text-foreground">
-                    Active
-                    <span className="ml-2 inline-flex h-2 w-2 rounded-full bg-emerald-500 align-middle" />
-                  </p>
-                </div>
-              </div>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <MiniPill
+                  icon={<Server size={16} />}
+                  title="Region"
+                  value="Tashkent / UZ"
+                />
+                <MiniPill
+                  icon={<ShieldCheck size={16} />}
+                  title="Status"
+                  value="Active"
+                />
 
-              <button
-                type="button"
-                onClick={() => window.location.reload()}
-                className="inline-flex items-center gap-2 rounded-2xl border border-border bg-background/60 px-4 py-3 text-sm font-bold hover:bg-background transition"
-                title="Yangilash"
-              >
-                <RefreshCcw size={16} className={loading ? "animate-spin" : ""} />
-                <span className="hidden sm:inline">Refresh</span>
-              </button>
+                <button
+                  type="button"
+                  onClick={fetchDashboardData}
+                  className="inline-flex items-center justify-center gap-2 rounded-2xl border border-border bg-primary text-primary-foreground px-5 py-3 text-sm font-bold shadow-sm hover:opacity-90 transition active:scale-[0.98] disabled:opacity-60"
+                  title="Refresh"
+                  disabled={loading}
+                >
+                  <RefreshCcw
+                    size={16}
+                    className={loading ? "animate-spin" : ""}
+                  />
+                  Refresh
+                </button>
+              </div>
             </div>
           </div>
+
+          <div className="h-2 w-full bg-gradient-to-r from-primary/20 via-transparent to-primary/20" />
         </motion.div>
 
-        {/* Stat cards */}
+        {/* KPI GRID */}
         <motion.div
           initial="hidden"
           animate="show"
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
         >
-          {cards.map((c, i) => (
-            <motion.div
-              key={c.label}
-              variants={cardPop}
-              custom={i}
-              whileHover={{ y: -2 }}
-              className={`group relative overflow-hidden rounded-3xl border border-border bg-card/70 p-5 shadow-sm backdrop-blur supports-[backdrop-filter]:bg-card/50 ring-1 ${c.ring}`}
-            >
-              <div className="pointer-events-none absolute -right-12 -top-12 h-40 w-40 rounded-full bg-primary/5 blur-2xl transition-opacity group-hover:opacity-80" />
-
-              <div className="flex items-start justify-between gap-3">
-                <div className={`rounded-2xl p-3 ${c.iconBg}`}>
-                  <c.icon size={22} className={c.iconText} />
-                </div>
-
-                <div className="flex items-center gap-1 text-[11px] font-black">
-                  <span className={c.trendText}>{c.trend}</span>
-                  <ArrowUpRight size={14} className={c.trendText} />
-                </div>
-              </div>
-
-              <p className="mt-4 text-[11px] font-black uppercase tracking-widest text-muted-foreground">
-                {c.label}
-              </p>
-
-              <div className="mt-2 flex items-baseline gap-2">
-                <h2 className="text-2xl font-black tracking-tight">
-                  {loading ? (
-                    <span className="inline-block h-7 w-28 rounded-xl bg-muted animate-pulse" />
-                  ) : (
-                    c.value
-                  )}
-                </h2>
-              </div>
-
-              <p className="mt-2 text-xs text-muted-foreground">
-                Oxirgi 7 kun bo‘yicha dinamik ko‘rsatkich.
-              </p>
+          {[
+            {
+              title: "Talabalar",
+              value: String(stats.totalStudents),
+              hint: "Jami ro‘yxatdan o‘tganlar",
+              icon: <Users size={18} />,
+              trend: "8.2%",
+            },
+            {
+              title: "Guruhlar",
+              value: String(stats.activeGroups),
+              hint: "Faol guruhlar soni",
+              icon: <GraduationCap size={18} />,
+              trend: "2.1%",
+            },
+            {
+              title: "Qarzdorlar",
+              value: String(stats.debtorsCount),
+              hint: "Tanlangan oy bo‘yicha",
+              icon: <Clock size={18} />,
+              trend: "-1.4%",
+            },
+            {
+              title: "Oylik tushum",
+              value: `${stats.monthlyRevenue.toLocaleString()} so'm`,
+              hint: "Demo qiymat (keyin APIga ulaysiz)",
+              icon: <Banknote size={18} />,
+              trend: "12.6%",
+            },
+          ].map((x, i) => (
+            <motion.div key={x.title} variants={card} custom={i}>
+              <KPI {...x} loading={loading} />
             </motion.div>
           ))}
         </motion.div>
 
-        {/* Main grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
-          {/* Chart */}
+        {/* MAIN: QUICK STATS + RECENT */}
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 lg:gap-6">
+          {/* QUICK STATS (chart o'rni) */}
           <motion.div
-            variants={fadeUp}
+            variants={fade}
             initial="hidden"
             animate="show"
-            className="lg:col-span-2 rounded-3xl border border-border bg-card/70 p-5 sm:p-6 shadow-sm backdrop-blur supports-[backdrop-filter]:bg-card/50"
+            className="lg:col-span-3 rounded-[2rem] border border-border bg-card p-5 sm:p-6 shadow-sm"
           >
-            <div className="flex items-center justify-between gap-3">
+            <div className="flex items-start justify-between gap-3">
               <div>
-                <h3 className="text-sm font-black uppercase tracking-widest flex items-center gap-2">
-                  <Activity size={16} className="text-primary" />
-                  Oqim analitikasi
-                </h3>
+                <p className="text-[11px] font-black uppercase tracking-[0.18em] text-muted-foreground">
+                  Quick stats
+                </p>
+                <h3 className="mt-1 text-lg font-bold">Tezkor ko‘rsatkichlar</h3>
                 <p className="mt-1 text-xs text-muted-foreground">
-                  Haftalik ko‘rsatkich (demo data).
+                  Grafiksiz soddalashtirilgan dashboard.
                 </p>
               </div>
 
-              <div className="hidden sm:flex items-center gap-2 rounded-2xl border border-border bg-background/60 px-3 py-2 text-xs font-bold">
-                <span className="text-muted-foreground">Updated:</span>
-                <span className="font-mono">2026-02</span>
-              </div>
+              <span className="rounded-2xl border border-border bg-background px-3 py-2 text-[11px] font-black uppercase tracking-widest text-muted-foreground">
+                2026-02
+              </span>
             </div>
 
-            <div className="mt-5 h-[280px] w-full">
-              <ResponsiveContainer width="100%" height="100%">
-                <AreaChart data={chartData} margin={{ left: 0, right: 8 }}>
-                  <defs>
-                    <linearGradient id="dashArea" x1="0" y1="0" x2="0" y2="1">
-                      <stop
-                        offset="5%"
-                        stopColor="hsl(var(--primary))"
-                        stopOpacity={0.35}
-                      />
-                      <stop
-                        offset="95%"
-                        stopColor="hsl(var(--primary))"
-                        stopOpacity={0}
-                      />
-                    </linearGradient>
-                  </defs>
+            <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <StatLine
+                label="O‘rtacha o‘sish"
+                value="↑ 6.4%"
+                sub="Oxirgi 30 kun (demo)"
+                icon={<TrendingUp size={16} />}
+                loading={loading}
+              />
+              <StatLine
+                label="Xavf zonasi"
+                value={`${stats.debtorsCount} qarzdor`}
+                sub="To‘lov nazorati kerak"
+                icon={<AlertTriangle size={16} />}
+                loading={loading}
+              />
+              <StatLine
+                label="Sifat ko‘rsatkichi"
+                value="OK"
+                sub="Tizim ishlashi barqaror"
+                icon={<CheckCircle2 size={16} />}
+                loading={loading}
+              />
+              <StatLine
+                label="Faol guruhlar"
+                value={`${stats.activeGroups} ta`}
+                sub="Jadval bo‘yicha ishlayotganlar"
+                icon={<GraduationCap size={16} />}
+                loading={loading}
+              />
+            </div>
 
-                  <CartesianGrid
-                    strokeDasharray="3 3"
-                    stroke="hsl(var(--border))"
-                    vertical={false}
-                  />
-
-                  <XAxis
-                    dataKey="n"
-                    stroke="hsl(var(--muted-foreground))"
-                    fontSize={11}
-                    axisLine={false}
-                    tickLine={false}
-                  />
-
-                  <Tooltip
-                    cursor={{ stroke: "hsl(var(--border))" }}
-                    contentStyle={{
-                      backgroundColor: "hsl(var(--card))",
-                      border: "1px solid hsl(var(--border))",
-                      borderRadius: "16px",
-                      boxShadow: "0 10px 30px rgba(0,0,0,0.08)",
-                    }}
-                    labelStyle={{ fontWeight: 800 }}
-                  />
-
-                  <Area
-                    type="monotone"
-                    dataKey="v"
-                    stroke="hsl(var(--primary))"
-                    strokeWidth={3}
-                    fill="url(#dashArea)"
-                  />
-                </AreaChart>
-              </ResponsiveContainer>
+            <div className="mt-5 rounded-2xl border border-border bg-background p-4">
+              <p className="text-[11px] font-black uppercase tracking-[0.18em] text-muted-foreground">
+                Eslatma
+              </p>
+              <p className="mt-2 text-sm font-semibold">
+                Agar xohlasangiz, bu yerga “Top 5 qarzdor” yoki “Bugungi
+                darslar” ro‘yxatini ham qo‘shib beraman.
+              </p>
+              <p className="mt-1 text-xs text-muted-foreground">
+                Hamma sahifalarda bir xil dizayn bo‘lishi uchun shu component
+                uslubini davom ettiramiz.
+              </p>
             </div>
           </motion.div>
 
+          {/* RECENT / INSIGHTS */}
           <motion.div
-            variants={fadeUp}
+            variants={fade}
             initial="hidden"
             animate="show"
-            className="relative overflow-hidden rounded-3xl border border-border bg-card/70 p-5 sm:p-6 shadow-sm backdrop-blur supports-[backdrop-filter]:bg-card/50"
+            className="lg:col-span-2 rounded-[2rem] border border-border bg-card p-5 sm:p-6 shadow-sm"
           >
-            {/* scanning line */}
-            <motion.div
-              animate={{ top: ["-10%", "110%"] }}
-              transition={{ duration: 4.2, repeat: Infinity, ease: "linear" }}
-              className="pointer-events-none absolute left-0 top-0 z-20 h-[2px] w-full bg-primary/25 shadow-[0_0_18px_hsl(var(--primary))]"
-            />
-
             <div className="flex items-start justify-between gap-3">
               <div>
-                <h3 className="text-sm font-black uppercase tracking-widest flex items-center gap-2">
-                  <Globe size={16} className="text-primary" />
-                  Tizim jurnali
-                </h3>
+                <p className="text-[11px] font-black uppercase tracking-[0.18em] text-muted-foreground">
+                  Insights
+                </p>
+                <h3 className="mt-1 text-lg font-bold">Tezkor xulosalar</h3>
                 <p className="mt-1 text-xs text-muted-foreground">
-                  Oxirgi faoliyatlar (demo).
+                  (Demo) — keyin real “events” bilan ulaysiz.
                 </p>
               </div>
 
-              <div className="rounded-2xl border border-border bg-background/60 px-3 py-2 text-[10px] font-black uppercase tracking-widest text-muted-foreground">
-                Live
-              </div>
+              <span className="rounded-full border border-border bg-background px-3 py-1 text-[10px] font-black uppercase tracking-widest text-muted-foreground">
+                live
+              </span>
             </div>
 
             <div className="mt-5 space-y-3">
               {[
-                { t: "09:41", m: "Yangi guruh yaratildi", c: "text-primary" },
-                { t: "08:30", m: "To'lov qabul qilindi", c: "text-emerald-500" },
+                { title: "Yangi guruh yaratildi", time: "09:41", tone: "primary" },
+                { title: "To‘lov qabul qilindi", time: "08:30", tone: "emerald" },
                 {
-                  t: "07:15",
-                  m: "Qarzdorlik xabari yuborildi",
-                  c: "text-rose-500",
+                  title: "Qarzdorlik eslatmasi yuborildi",
+                  time: "07:15",
+                  tone: "rose",
                 },
-                { t: "06:05", m: "Talaba ro‘yxatdan o‘tdi", c: "text-blue-500" },
-              ].map((log, i) => (
+                { title: "Talaba ro‘yxatdan o‘tdi", time: "06:05", tone: "blue" },
+              ].map((x, i) => (
                 <div
                   key={i}
-                  className="flex items-start gap-3 rounded-2xl border border-border bg-background/50 px-4 py-3"
+                  className="rounded-2xl border border-border bg-background p-4"
                 >
-                  <div className="mt-0.5 h-2.5 w-2.5 rounded-full bg-muted-foreground/30" />
-                  <div className="flex-1">
-                    <div className="flex items-center justify-between gap-3">
-                      <span className="text-[11px] font-mono text-muted-foreground">
-                        {log.t}
-                      </span>
-                      <span className="text-[10px] font-black uppercase tracking-widest text-muted-foreground">
-                        event
-                      </span>
-                    </div>
-                    <p className={`mt-1 text-sm font-bold ${log.c}`}>
-                      {log.m}
-                    </p>
+                  <div className="flex items-center justify-between gap-3">
+                    <span className="text-[11px] font-mono text-muted-foreground">
+                      {x.time}
+                    </span>
+                    <span
+                      className={`rounded-full px-2 py-1 text-[10px] font-black uppercase tracking-widest border ${
+                        x.tone === "emerald"
+                          ? "text-emerald-600 border-emerald-600/20 bg-emerald-500/10"
+                          : x.tone === "rose"
+                            ? "text-rose-600 border-rose-600/20 bg-rose-500/10"
+                            : x.tone === "blue"
+                              ? "text-blue-600 border-blue-600/20 bg-blue-500/10"
+                              : "text-primary border-primary/20 bg-primary/10"
+                      }`}
+                    >
+                      event
+                    </span>
                   </div>
+
+                  <p className="mt-2 text-sm font-bold">{x.title}</p>
+                  <p className="mt-1 text-xs text-muted-foreground">
+                    Avtomatik tizim hodisasi (demo).
+                  </p>
                 </div>
               ))}
             </div>
@@ -429,7 +458,7 @@ export default function Asosiy() {
               type="button"
               className="mt-5 w-full rounded-2xl border border-border bg-primary text-primary-foreground py-3 text-[11px] font-black uppercase tracking-widest hover:opacity-90 transition"
             >
-              To'liq hisobot
+              To‘liq hisobot
             </button>
           </motion.div>
         </div>

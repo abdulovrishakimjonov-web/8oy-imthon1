@@ -8,6 +8,7 @@
   "/(main)/settings/page": "app/(main)/settings/page.js",
   "/(main)/students/page": "app/(main)/students/page.js",
   "/(main)/teachers/page": "app/(main)/teachers/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/api/auth/sign-in/route": "app/api/auth/sign-in/route.js",
   "/login/page": "app/login/page.js",
   "/page": "app/page.js"

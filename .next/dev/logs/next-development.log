@@ -230,3 +230,4056 @@ https://react.dev/link/hydration-mismatch
 [01:11:59.491] Server  LOG     ✓ Compiled in 727ms
 [01:12:23.018] Browser ERROR   Qarzdorlarni yuklashda xato: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk5NzYyMywiZXhwIjoxNzcyMDAxMjIzfQ.MJsYDqiXjnGoTGsMCxzycoJbBmIradLCumNcb7VjsHE"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"month":"2025-05"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/payment/get-debtors-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 403","name":"AxiosError","stack":"AxiosError: Request failed with status code 403\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:4789:49)\n    at async Payment.useCallback[fetchDebtors] (http://localhost:3000/_next/static/chunks/app_(main)_payment_page_tsx_e7ba2a87._.js?id=%255Bproject%255D%252Fapp%252F%2528main%2529%252Fpayment%252Fpage.tsx+%255Bapp-client%255D+%2528ecmascript%2529:215:34)","status":403}
 [01:12:23.149] Browser ERROR   Qarzdorlarni yuklashda xato: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk5NzYyMywiZXhwIjoxNzcyMDAxMjIzfQ.MJsYDqiXjnGoTGsMCxzycoJbBmIradLCumNcb7VjsHE"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"month":"2025-05"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/payment/get-debtors-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 403","name":"AxiosError","stack":"AxiosError: Request failed with status code 403\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:4789:49)\n    at async Payment.useCallback[fetchDebtors] (http://localhost:3000/_next/static/chunks/app_(main)_payment_page_tsx_e7ba2a87._.js?id=%255Bproject%255D%252Fapp%252F%2528main%2529%252Fpayment%252Fpage.tsx+%255Bapp-client%255D+%2528ecmascript%2529:215:34)","status":403}
+[01:19:25.051] Server  LOG     ✓ Compiled in 374ms
+[01:19:51.539] Browser ERROR   Qarzdorlarni yuklashda xato: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk5NzYyMywiZXhwIjoxNzcyMDAxMjIzfQ.MJsYDqiXjnGoTGsMCxzycoJbBmIradLCumNcb7VjsHE"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"month":"2025-05"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/payment/get-debtors-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 403","name":"AxiosError","stack":"AxiosError: Request failed with status code 403\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:4789:49)\n    at async Payment.useCallback[fetchDebtors] (http://localhost:3000/_next/static/chunks/app_(main)_payment_page_tsx_e7ba2a87._.js?id=%255Bproject%255D%252Fapp%252F%2528main%2529%252Fpayment%252Fpage.tsx+%255Bapp-client%255D+%2528ecmascript%2529:215:34)","status":403}
+[01:19:51.854] Browser ERROR   Qarzdorlarni yuklashda xato: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk5NzYyMywiZXhwIjoxNzcyMDAxMjIzfQ.MJsYDqiXjnGoTGsMCxzycoJbBmIradLCumNcb7VjsHE"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"month":"2025-05"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/payment/get-debtors-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 403","name":"AxiosError","stack":"AxiosError: Request failed with status code 403\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:4789:49)\n    at async Payment.useCallback[fetchDebtors] (http://localhost:3000/_next/static/chunks/app_(main)_payment_page_tsx_e7ba2a87._.js?id=%255Bproject%255D%252Fapp%252F%2528main%2529%252Fpayment%252Fpage.tsx+%255Bapp-client%255D+%2528ecmascript%2529:215:34)","status":403}
+[01:27:49.451] Server  LOG     ✓ Compiled in 1028ms
+[01:28:33.699] Server  LOG     ✓ Compiled in 260ms
+[01:28:37.048] Server  LOG     ✓ Compiled in 174ms
+[01:28:40.224] Server  LOG     ✓ Compiled in 216ms
+[01:28:51.070] Server  LOG     ✓ Compiled in 194ms
+[01:33:45.139] Server  LOG     ✓ Compiled in 157ms
+[01:34:16.641] Server  LOG     ✓ Compiled in 922ms
+[01:34:17.302] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:39:27.579] Server  LOG     ✓ Compiled in 1322ms
+[01:39:27.890] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:39:34.077] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:39:34.078] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:39:35.235] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk5NzYyMywiZXhwIjoxNzcyMDAxMjIzfQ.MJsYDqiXjnGoTGsMCxzycoJbBmIradLCumNcb7VjsHE"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/payment/get-debtors-student?month=2026-02","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 403","name":"AxiosError","stack":"AxiosError: Request failed with status code 403\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_ca863d12._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_ca863d12._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_ca863d12._.js:4789:49)\n    at async Promise.all (index 2)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:125:71)","status":403}
+[01:39:35.235] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk5NzYyMywiZXhwIjoxNzcyMDAxMjIzfQ.MJsYDqiXjnGoTGsMCxzycoJbBmIradLCumNcb7VjsHE"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/group/get-all-group","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 403","name":"AxiosError","stack":"AxiosError: Request failed with status code 403\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_ca863d12._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_ca863d12._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_ca863d12._.js:4789:49)\n    at async Promise.all (index 0)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:125:71)","status":403}
+[01:40:03.971] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:04.148] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/menagers" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="(main)/men...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Menagers} serverProvidedParams={{...}}>
+                <Menagers params={Promise} searchParams={Promise}>
+                  <div className="relative m...">
+                    <div>
+                    <div>
+                    <div>
+                    <div className="relative m...">
+                      <div className="rounded-3x...">
+                        <div className="flex flex-...">
+                          <div>
+                          <div className="w-full sm:...">
+                            <div>
+                            <div className="mt-2 flex ...">
+                              <span>
+                              <span className="font-mono">
++                               loading...
+-                               ready
+                      ...
+            ...
+          ...
+
+[01:41:09.200] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:09.497] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html lang="uz" suppressHydrationWarning={true}>
+                            <head>
+                            <body
+                              className="inter_5901b7c6-module__ec5Qua__variable geist_a71539c9-module__T19VSG__variab..."
+-                             cz-shortcut-listen="true"
+                            >
+                  ...
+
+[01:41:16.843] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:41:16.843] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:41:17.440] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MjAwMzU2OCwiZXhwIjoxNzcyMDA3MTY4fQ.DPIjU06VeI5cIK2NJrmo-_QaHTvRHwl7MKphUaYGDpM"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1940:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2458:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3264:49)\n    at async Promise.all (index 1)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:125:71)","status":404}
+[01:41:18.384] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MjAwMzU2OCwiZXhwIjoxNzcyMDA3MTY4fQ.DPIjU06VeI5cIK2NJrmo-_QaHTvRHwl7MKphUaYGDpM"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1940:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2458:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3264:49)\n    at async Promise.all (index 1)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:125:71)","status":404}
+[01:44:37.851] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:44:37.851] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:44:38.840] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MjAwMzU2OCwiZXhwIjoxNzcyMDA3MTY4fQ.DPIjU06VeI5cIK2NJrmo-_QaHTvRHwl7MKphUaYGDpM"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1940:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2458:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3264:49)\n    at async Promise.all (index 1)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:125:71)","status":404}
+[01:44:39.450] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MjAwMzU2OCwiZXhwIjoxNzcyMDA3MTY4fQ.DPIjU06VeI5cIK2NJrmo-_QaHTvRHwl7MKphUaYGDpM"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1940:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2458:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3264:49)\n    at async Promise.all (index 1)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:125:71)","status":404}
+[01:46:01.093] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.100] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.114] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.130] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.140] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.166] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.170] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.174] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.180] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.184] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.190] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.196] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.204] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.211] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.217] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.220] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.226] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.230] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.235] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.239] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.243] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.247] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.261] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.265] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.271] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.274] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.280] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.283] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.288] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.294] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.301] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.304] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:01.473] Server  LOG     ✓ Compiled in 975ms
+[01:46:02.411] Browser ERROR   ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:46:12.402] Browser ERROR   ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:46:14.403] Browser ERROR   ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:46:16.842] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.844] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.846] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.848] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.850] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.853] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.856] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.858] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.860] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.861] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.863] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.864] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.866] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.867] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.869] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.870] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.873] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.874] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.875] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.877] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.878] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.880] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.881] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.883] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.884] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.886] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.887] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.889] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.890] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.892] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.893] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.895] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:16.896] Server  LOG     ✓ Compiled in 121ms
+[01:46:17.417] Browser ERROR   ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:46:18.810] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.812] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.814] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.815] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.817] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.819] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.821] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.822] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.824] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.825] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.828] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.830] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.831] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.833] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.835] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.837] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.839] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.841] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.842] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.844] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.845] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.846] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.848] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.849] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.851] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.853] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.854] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.855] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.858] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.859] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.861] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.862] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:18.864] Server  LOG     ✓ Compiled in 122ms
+[01:46:19.402] Browser ERROR   ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:46:47.146] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.148] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.150] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.152] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.155] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.157] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.159] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.161] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.164] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.167] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.170] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.172] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.174] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.176] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.179] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.180] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.183] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.184] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.187] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.189] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.191] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.193] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.195] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.197] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.199] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.201] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.204] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.206] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.208] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.209] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.213] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.215] Server  ERROR   ⨯ ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:46:47.217] Server  LOG     ✓ Compiled in 181ms
+[01:46:47.403] Browser ERROR   ./components/Hedaer.tsx:4:1
+Module not found: Can't resolve './globals.css'
+  2 |
+  3 | import { Inter, Geist, Geist_Mono } from "next/font/google";
+> 4 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { ThemeProvider } from "@/components/theme-provider";
+  6 | import { usePathname } from "next/navigation";
+  7 | import Hedaer from "@/components/Hedaer";
+
+Import traces:
+  Client Component Browser:
+    ./components/Hedaer.tsx [Client Component Browser]
+    ./app/layout.tsx [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/Hedaer.tsx [Client Component SSR]
+    ./app/layout.tsx [Client Component SSR]
+    ./app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[01:46:51.293] Server  LOG     ✓ Compiled in 429ms
+[01:46:51.960] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:46:52.407] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:46:52.407] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:46:52.407] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:46:52.407] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:46:54.404] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MjAwMzU2OCwiZXhwIjoxNzcyMDA3MTY4fQ.DPIjU06VeI5cIK2NJrmo-_QaHTvRHwl7MKphUaYGDpM"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1940:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2458:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3264:49)\n    at async Promise.all (index 1)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:125:71)","status":404}
+[01:50:04.230] Server  LOG     ✓ Compiled in 462ms
+[01:50:15.949] Server  LOG     ✓ Compiled in 506ms
+[01:50:16.583] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:50:17.410] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:50:17.410] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:50:17.410] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:50:17.410] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[01:50:18.408] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MjAwMzU2OCwiZXhwIjoxNzcyMDA3MTY4fQ.DPIjU06VeI5cIK2NJrmo-_QaHTvRHwl7MKphUaYGDpM"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1940:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2458:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3264:49)\n    at async Promise.all (index 1)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:125:71)","status":404}
+[01:52:06.082] Server  LOG     ✓ Compiled in 475ms
+[01:52:06.283] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:52:07.418] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/adminss" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="(main)/adm...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function AdminPanel} serverProvidedParams={{...}}>
+                <AdminPanel params={Promise} searchParams={Promise}>
+                  <div className="relative m...">
+                    <div>
+                    <div>
+                    <div>
+                    <div className="relative m...">
+                      <motion.div initial={{opacity:0,y:14}} animate={{opacity:1,y:0}} transition={{duration:0.4, ...}} ...>
+                        <div className="rounded-3x..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                          <div>
+                          <div className="mt-4 flex ...">
+                            <span>
+                            <span className="font-mono">
++                             loading...
+-                             ready
+                      ...
+            ...
+          ...
+
+[01:52:19.067] Server  LOG     ✓ Compiled in 489ms
+[01:52:19.254] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:52:20.178] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/adminss" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="(main)/adm...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function AdminPanel} serverProvidedParams={{...}}>
+                <AdminPanel params={Promise} searchParams={Promise}>
+                  <div className="relative m...">
+                    <div>
+                    <div>
+                    <div>
+                    <div className="relative m...">
+                      <motion.div initial={{opacity:0,y:14}} animate={{opacity:1,y:0}} transition={{duration:0.4, ...}} ...>
+                        <div className="rounded-3x..." style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                          <div>
+                          <div className="mt-4 flex ...">
+                            <span>
+                            <span className="font-mono">
++                             loading...
+-                             ready
+                      ...
+            ...
+          ...
+
+[01:53:11.652] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:53:15.399] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:53:18.548] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:53:52.456] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:53:52.755] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admins" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html lang="uz" suppressHydrationWarning={true}>
+                            <head>
+                            <body
+                              className="inter_5901b7c6-module__ec5Qua__variable geist_a71539c9-module__T19VSG__variab..."
+-                             cz-shortcut-listen="true"
+                            >
+                  ...
+
+[01:54:09.858] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:10.266] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admins" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html lang="uz" suppressHydrationWarning={true}>
+                            <head>
+                            <body
+                              className="inter_5901b7c6-module__ec5Qua__variable geist_a71539c9-module__T19VSG__variab..."
+-                             cz-shortcut-listen="true"
+                            >
+                  ...
+
+[01:54:39.612] Server  LOG     ✓ Compiled in 359ms
+[01:54:41.502] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:42.066] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/admins" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html lang="uz" suppressHydrationWarning={true}>
+                            <head>
+                            <body
+                              className="inter_5901b7c6-module__ec5Qua__variable geist_a71539c9-module__T19VSG__variab..."
+-                             cz-shortcut-listen="true"
+                            >
+                  ...
+
+[01:54:50.662] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:54:51.048] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/Admins" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html lang="uz" suppressHydrationWarning={true}>
+                            <head>
+                            <body
+                              className="inter_5901b7c6-module__ec5Qua__variable geist_a71539c9-module__T19VSG__variab..."
+-                             cz-shortcut-listen="true"
+                            >
+                  ...
+
+[01:55:03.880] Server  LOG     ✓ Compiled in 173ms
+[01:55:08.613] Server  LOG     ✓ Compiled in 536ms
+[01:55:21.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:55:21.632] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/Admins" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html lang="uz" suppressHydrationWarning={true}>
+                            <head>
+                            <body
+                              className="inter_5901b7c6-module__ec5Qua__variable geist_a71539c9-module__T19VSG__variab..."
+-                             cz-shortcut-listen="true"
+                            >
+                  ...
+
+[01:55:36.160] Server  LOG     ✓ Compiled in 460ms
+[01:56:54.052] Server  LOG     ✓ Compiled in 75ms
+[01:56:57.825] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:56:58.174] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/Admins" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html lang="uz" suppressHydrationWarning={true}>
+                            <head>
+                            <body
+                              className="inter_5901b7c6-module__ec5Qua__variable geist_a71539c9-module__T19VSG__variab..."
+-                             cz-shortcut-listen="true"
+                            >
+                  ...
+
+[02:01:15.495] Server  LOG     ✓ Compiled in 179.5s
+[02:01:17.097] Server  LOG     ✓ Compiled in 1163ms
+[02:01:17.490] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:01:17.759] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ClientSegmentRoot Component={function RootLayout} slots={{...}} serverProvidedParams={{params:{}, ...}}>
+      <RootLayout params={Promise}>
+        <html lang="uz" suppressHydrationWarning={true}>
+          <head>
+          <body className="inter_5901...">
+            <QueryClientProvider client={{}}>
+              <ThemeProvider attribute="class" defaultTheme="system" enableSystem={true} disableTransitionOnChange={true}>
+                <J attribute="class" defaultTheme="system" enableSystem={true} disableTransitionOnChange={true}>
+                  <V attribute="class" defaultTheme="system" enableSystem={true} disableTransitionOnChange={true}>
+                    <script>
+                    <div className="min-h-scre...">
+                      <aside>
+                      <div>
+                      <div className="min-h-scre..." style={{...}}>
+                        <div className="flex-1 fle..." style={{...}}>
+                          <header>
+                          <div className="flex-1 min..." style={{marginLeft:0}}>
+                            <main className="p-4 md:p-6" style={{...}}>
+                              <div
+                                className="w-full"
++                               style={{marginLeft:undefined}}
+-                               style={{margin-left:"0px"}}
+                              >
+                                ...
+                                  <div className="relative m...">
+                                    <div className="rounded-3x...">
+                                      <div>
+                                      <div className="mt-4 flex ...">
+                                        <span>
+                                        <span className="font-mono">
++                                         loading...
+-                                         ready
+                                    ...
+                      ...
+
+[02:01:31.266] Server  LOG     ✓ Compiled in 254ms
+[02:01:50.874] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[02:01:50.874] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[02:01:52.272] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MjAwMzU2OCwiZXhwIjoxNzcyMDA3MTY4fQ.DPIjU06VeI5cIK2NJrmo-_QaHTvRHwl7MKphUaYGDpM"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_6d66edfc._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_6d66edfc._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_6d66edfc._.js:4789:49)\n    at async Promise.all (index 1)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:125:71)","status":404}
+[02:01:52.870] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MjAwMzU2OCwiZXhwIjoxNzcyMDA3MTY4fQ.DPIjU06VeI5cIK2NJrmo-_QaHTvRHwl7MKphUaYGDpM"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_6d66edfc._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_6d66edfc._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_6d66edfc._.js:4789:49)\n    at async Promise.all (index 1)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:125:71)","status":404}
+[02:02:33.224] Server  LOG     ✓ Compiled in 218ms
+[02:02:36.132] Server  LOG     ✓ Compiled in 195ms
+[02:02:39.117] Server  LOG     ✓ Compiled in 225ms
+[02:02:42.554] Server  LOG     ✓ Compiled in 204ms
+[02:02:45.543] Server  LOG     ✓ Compiled in 182ms
+[02:02:46.901] Server  LOG     ✓ Compiled in 172ms
+[02:02:49.797] Server  LOG     ✓ Compiled in 170ms
+[02:02:51.331] Server  LOG     ✓ Compiled in 184ms
+[02:02:52.986] Server  LOG     ✓ Compiled in 163ms
+[02:02:54.531] Server  LOG     ✓ Compiled in 167ms
+[02:02:57.163] Server  LOG     ✓ Compiled in 177ms
+[02:02:58.847] Server  LOG     ✓ Compiled in 189ms
+[02:03:01.246] Server  LOG     ✓ Compiled in 161ms
+[02:03:02.813] Server  LOG     ✓ Compiled in 161ms
+[02:03:04.382] Server  LOG     ✓ Compiled in 160ms
+[02:03:06.213] Server  LOG     ✓ Compiled in 170ms
+[02:03:08.811] Server  LOG     ✓ Compiled in 216ms
+[02:03:11.312] Server  LOG     ✓ Compiled in 83ms
+[02:03:13.029] Server  LOG     ✓ Compiled in 161ms
+[02:03:16.746] Server  LOG     ✓ Compiled in 149ms
+[02:03:18.044] Server  LOG     ✓ Compiled in 89ms
+[02:03:20.110] Server  LOG     ✓ Compiled in 154ms
+[02:03:22.230] Server  LOG     ✓ Compiled in 170ms
+[02:03:24.377] Server  LOG     ✓ Compiled in 160ms
+[02:03:26.177] Server  LOG     ✓ Compiled in 170ms
+[02:08:13.837] Server  LOG     ✓ Compiled in 395ms
+[02:08:14.402] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[02:08:14.402] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[02:11:34.593] Server  LOG     ✓ Compiled in 260ms
+[02:11:36.409] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MjAwMzU2OCwiZXhwIjoxNzcyMDA3MTY4fQ.DPIjU06VeI5cIK2NJrmo-_QaHTvRHwl7MKphUaYGDpM"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_6d66edfc._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_6d66edfc._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_6d66edfc._.js:4789:49)\n    at async Promise.all (index 1)\n    at async fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js?id=%255Bproject%255D%252Fapp%252Fpage.tsx+%255Bapp-client%255D+%2528ecmascript%2529:506:59)","status":404}
