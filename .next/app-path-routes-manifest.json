@@ -1,10 +1,6 @@
 {
   "/(main)/adminss/page": "/adminss",
-  "/(main)/asosiy/page": "/asosiy",
-  "/(main)/blog/page": "/blog",
-  "/(main)/contact/page": "/contact",
   "/(main)/courses/page": "/courses",
-  "/(main)/developer/page": "/developer",
   "/(main)/groups/page": "/groups",
   "/(main)/menagers/page": "/menagers",
   "/(main)/page": "/",

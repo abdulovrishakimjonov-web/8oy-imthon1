@@ -1,7 +1,7 @@
-[00:00:01.560] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:01.781] Server  LOG     ✓ Ready in 1268ms
-[00:00:04.963] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.150] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:01.118] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.290] Server  LOG     ✓ Ready in 942ms
+[00:00:29.916] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:30.060] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -19,7 +19,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -39,10 +39,9 @@ It can also happen if the client has a browser extension installed which messes 
 -                             cz-shortcut-listen="true"
                             >
                               ...
-                                <div className="flex-1 fle..." style={{...}}>
-                                  <header>
+                                <div className="flex-1 fle..." style={{marginLeft:0}}>
                                   <div className="flex-1 min..." style={{marginLeft:0}}>
-                                    <main className="p-4 md:p-6" style={{...}}>
+                                    <main className="p-4 md:p-6" style={{marginLeft:0}}>
                                       <div
                                         className="w-full"
 +                                       style={{marginLeft:undefined}}
@@ -50,12 +49,8 @@ It can also happen if the client has a browser extension installed which messes 
                                       >
                   ...
 
-[00:00:06.223] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MjAwMzU2OCwiZXhwIjoxNzcyMDA3MTY4fQ.DPIjU06VeI5cIK2NJrmo-_QaHTvRHwl7MKphUaYGDpM"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_eed60816._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_eed60816._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_eed60816._.js:4789:49)\n    at async Promise.all (index 1)\n    at async fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:507:59)","status":404}
-[00:14:40.095] Server  LOG     ✓ Compiled in 587ms
-[00:15:04.848] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MjAwNzkxOSwiZXhwIjoxNzcyMDExNTE5fQ.YEzAqGdOR3Xwcg_kOipVWJFvtA52R9tpK63JotbyDzE"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_eed60816._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_eed60816._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_eed60816._.js:4789:49)\n    at async Promise.all (index 1)\n    at async fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:507:59)","status":404}
-[00:15:05.395] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MjAwNzkxOSwiZXhwIjoxNzcyMDExNTE5fQ.YEzAqGdOR3Xwcg_kOipVWJFvtA52R9tpK63JotbyDzE"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_eed60816._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_eed60816._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_eed60816._.js:4789:49)\n    at async Promise.all (index 1)\n    at async fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:507:59)","status":404}
-[00:15:20.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:15:20.828] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:56.894] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:57.008] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -89,11 +84,3 @@ It can also happen if the client has a browser extension installed which messes 
 -                               style={{margin-left:"0px"}}
                               >
 
-[00:15:29.610] Server  LOG     ✓ Compiled in 59ms
-[00:15:33.591] Server  LOG     ✓ Compiled in 52ms
-[00:15:35.281] Server  LOG     ✓ Compiled in 75ms
-[00:15:39.864] Server  LOG     ✓ Compiled in 62ms
-[00:15:41.958] Server  LOG     ✓ Compiled in 51ms
-[00:15:44.129] Server  LOG     ✓ Compiled in 53ms
-[00:15:48.628] Server  LOG     ✓ Compiled in 43ms
-[00:15:51.090] Server  LOG     ✓ Compiled in 43ms

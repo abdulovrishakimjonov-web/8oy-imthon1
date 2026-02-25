@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../app/%28main%29/contact/page.tsx"],"sourcesContent":["import React from \"react\";\n\nconst Contact = () => {\n  return <div>Contact</div>;\n};\n\nexport default Contact;\n"],"names":[],"mappings":"iYAEgB,IACP,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI"}

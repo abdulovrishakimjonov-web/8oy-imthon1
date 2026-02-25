@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../app/%28main%29/asosiy/page.tsx"],"sourcesContent":["const Asosiy = () => {\n  return <div>Asosiy</div>;\n};\n\nexport default Asosiy;\n"],"names":[],"mappings":"iYAAe,IACN,CAAA,EAAA,EAAA,GAAA,EAAC,MAAA,UAAI"}

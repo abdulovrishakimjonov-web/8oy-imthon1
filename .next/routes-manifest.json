@@ -62,34 +62,10 @@
       "namedRegex": "^/api/auth/sign\\-in(?:/)?$"
     },
     {
-      "page": "/asosiy",
-      "regex": "^/asosiy(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/asosiy(?:/)?$"
-    },
-    {
-      "page": "/blog",
-      "regex": "^/blog(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/blog(?:/)?$"
-    },
-    {
-      "page": "/contact",
-      "regex": "^/contact(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/contact(?:/)?$"
-    },
-    {
       "page": "/courses",
       "regex": "^/courses(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/courses(?:/)?$"
-    },
-    {
-      "page": "/developer",
-      "regex": "^/developer(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/developer(?:/)?$"
     },
     {
       "page": "/groups",

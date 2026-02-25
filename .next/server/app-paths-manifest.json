@@ -1,10 +1,6 @@
 {
   "/(main)/adminss/page": "app/(main)/adminss/page.js",
-  "/(main)/asosiy/page": "app/(main)/asosiy/page.js",
-  "/(main)/blog/page": "app/(main)/blog/page.js",
-  "/(main)/contact/page": "app/(main)/contact/page.js",
   "/(main)/courses/page": "app/(main)/courses/page.js",
-  "/(main)/developer/page": "app/(main)/developer/page.js",
   "/(main)/groups/page": "app/(main)/groups/page.js",
   "/(main)/menagers/page": "app/(main)/menagers/page.js",
   "/(main)/page": "app/(main)/page.js",

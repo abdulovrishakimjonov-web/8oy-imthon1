@@ -30,18 +30,21 @@ interface Manager {
 const cx = (...c: Array<string | false | undefined | null>) =>
   c.filter(Boolean).join(" ");
 
-function useOnClickOutside(
-  ref: React.RefObject<HTMLElement>,
-  handler: () => void,
+function useOnClickOutside<T extends HTMLElement>(
+  ref: React.RefObject<T | null>,
+  handler: () => void
 ) {
   useEffect(() => {
     const listener = (e: MouseEvent | TouchEvent) => {
-      const el = ref?.current;
-      if (!el || el.contains(e.target as Node)) return;
+      const el = ref.current;
+      if (!el) return; // <<< null bo‘lsa chiqib ketadi
+      if (el.contains(e.target as Node)) return; // ichiga bosilsa ignore
       handler();
     };
+
     document.addEventListener("mousedown", listener);
     document.addEventListener("touchstart", listener);
+
     return () => {
       document.removeEventListener("mousedown", listener);
       document.removeEventListener("touchstart", listener);
