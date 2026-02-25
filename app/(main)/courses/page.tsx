@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import axios from "axios";
 import Cookies from "js-cookie";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
@@ -16,14 +16,120 @@ import {
   Loader2,
   X,
   CheckCircle2,
+  ChevronDown,
+  Layers,
+  BadgeDollarSign,
 } from "lucide-react";
+import { AnimatePresence, motion } from "framer-motion";
 
 // --- Yordamchi funksiya ---
 const safeStr = (value: any): string => {
   if (value === null || value === undefined) return "";
   if (typeof value === "string") return value;
   if (typeof value === "number") return String(value);
-  return value.name || value.title || "";
+  return value?.name || value?.title || "";
+};
+
+const cx = (...c: Array<string | false | undefined | null>) =>
+  c.filter(Boolean).join(" ");
+
+const Badge = ({
+  tone = "neutral",
+  children,
+}: {
+  tone?: "green" | "red" | "amber" | "blue" | "neutral";
+  children: React.ReactNode;
+}) => {
+  const styles =
+    tone === "green"
+      ? "bg-emerald-500/10 text-emerald-500 border-emerald-500/20"
+      : tone === "red"
+        ? "bg-rose-500/10 text-rose-500 border-rose-500/20"
+        : tone === "amber"
+          ? "bg-amber-500/10 text-amber-500 border-amber-500/20"
+          : tone === "blue"
+            ? "bg-blue-500/10 text-blue-500 border-blue-500/20"
+            : "bg-muted/50 text-muted-foreground border-border";
+
+  return (
+    <span
+      className={cx(
+        "inline-flex items-center gap-2 rounded-full border px-3 py-1 text-[10px] font-black uppercase tracking-widest whitespace-nowrap",
+        styles,
+      )}
+    >
+      {children}
+    </span>
+  );
+};
+
+const ModalShell = ({
+  open,
+  onClose,
+  title,
+  subtitle,
+  children,
+  width = "max-w-xl",
+}: {
+  open: boolean;
+  onClose: () => void;
+  title: string;
+  subtitle?: string;
+  children: React.ReactNode;
+  width?: string;
+}) => {
+  return (
+    <AnimatePresence>
+      {open && (
+        <motion.div
+          className="fixed inset-0 z-[200] flex items-center justify-center p-4"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+        >
+          <div
+            className="absolute inset-0 bg-black/45"
+            onClick={onClose}
+            aria-hidden="true"
+          />
+
+          <motion.div
+            initial={{ opacity: 0, y: 16, scale: 0.98 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 16, scale: 0.98 }}
+            transition={{ duration: 0.18, ease: "easeOut" }}
+            className={cx(
+              "relative w-full rounded-3xl border border-border bg-card/85 backdrop-blur supports-[backdrop-filter]:bg-card/60 shadow-2xl overflow-hidden",
+              width,
+            )}
+          >
+            <div className="flex items-center justify-between px-5 sm:px-6 py-4 border-b border-border">
+              <div>
+                <h2 className="text-base sm:text-lg font-black tracking-tight">
+                  {title}
+                </h2>
+                {subtitle && (
+                  <p className="text-xs text-muted-foreground mt-1">
+                    {subtitle}
+                  </p>
+                )}
+              </div>
+
+              <button
+                onClick={onClose}
+                className="inline-flex h-10 w-10 items-center justify-center rounded-2xl border border-border bg-background/50 hover:bg-muted/60 transition"
+                aria-label="Close"
+              >
+                <X size={18} />
+              </button>
+            </div>
+
+            <div className="p-5 sm:p-6">{children}</div>
+          </motion.div>
+        </motion.div>
+      )}
+    </AnimatePresence>
+  );
 };
 
 export default function Courses() {
@@ -58,6 +164,7 @@ export default function Courses() {
         ...(searchTerm && { search: searchTerm }),
         ...(filterFreeze !== "all" && { is_freeze: filterFreeze === "true" }),
       };
+
       const res = await axios.get(`${BASE_URL}/api/course/get-courses`, {
         headers: { Authorization: `Bearer ${token}` },
         params: queryParams,
@@ -90,7 +197,7 @@ export default function Courses() {
       const createdId = res.data?.data?._id || res.data?._id;
       setNewCourse((prev) => ({ ...prev, _id: createdId }));
       setShowToast(true);
-      setTimeout(() => setShowToast(false), 3000);
+      setTimeout(() => setShowToast(false), 2500);
       setAddStep(2);
     },
     onError: (err: any) => {
@@ -108,7 +215,7 @@ export default function Courses() {
       queryClient.invalidateQueries({ queryKey: ["courses"] });
       setIsAddModalOpen(false);
       setIsEditModalOpen(false);
-      setSelectedCourse(null); // State-ni tozalash
+      setSelectedCourse(null);
     },
     onError: () => alert("Xatolik yuz berdi!"),
   });
@@ -139,9 +246,7 @@ export default function Courses() {
 
   // --- HANDLERS ---
   const handleNextStep = () => {
-    if (newCourse.name.trim()) {
-      createCategoryMutation.mutate(newCourse.name);
-    }
+    if (newCourse.name.trim()) createCategoryMutation.mutate(newCourse.name);
   };
 
   const handleCreateFinal = () => {
@@ -154,14 +259,11 @@ export default function Courses() {
     });
   };
 
-  // BU YERDA ASOSIY HATOLIK TUZATILDI
   const handleUpdate = () => {
-    // selectedCourse null emasligini tekshirish (TypeError oldini olish)
     if (!selectedCourse?._id) {
       alert("Kurs ma'lumotlari yuklanmadi!");
       return;
     }
-
     saveCourseMutation.mutate({
       course_id: selectedCourse._id,
       duration: editData.duration,
@@ -188,321 +290,463 @@ export default function Courses() {
   };
 
   return (
-    <div className="w-full p-3 sm:p-6 min-h-screen bg-background text-foreground relative">
-      {/* Toast Notification */}
-      {showToast && (
-        <div className="fixed top-5 left-1/2 -translate-x-1/2 z-[100] bg-card border border-border text-card-foreground px-6 py-3 rounded-xl shadow-lg flex items-center gap-3 animate-in fade-in slide-in-from-top-4 duration-300">
-          <CheckCircle2 className="text-green-500" size={20} />
-          <span className="font-medium text-sm">
-            Kategoriya muvaffaqiyatli qo'shildi
-          </span>
-        </div>
-      )}
+    <div className="relative min-h-screen w-full p-4 sm:p-6 lg:p-8 text-foreground overflow-hidden">
+      {/* accents */}
+      <div className="pointer-events-none absolute -top-24 left-1/2 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-primary/10 blur-[120px]" />
+      <div className="pointer-events-none absolute -bottom-40 -right-24 h-[520px] w-[520px] rounded-full bg-blue-500/10 blur-[140px]" />
+      <div className="pointer-events-none absolute -bottom-40 -left-24 h-[520px] w-[520px] rounded-full bg-emerald-500/10 blur-[140px]" />
 
-      {/* Header */}
-      <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-8">
-        <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">
-          Kurslar
-        </h1>
-        <div className="flex flex-wrap items-center gap-3">
-          <div className="relative w-64">
-            <Search
-              className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground"
-              size={18}
-            />
-            <input
-              type="text"
-              placeholder="Kurs qidirish..."
-              className="bg-transparent border border-input rounded-xl py-2 pl-10 pr-4 text-sm outline-none w-full focus:ring-1 focus:ring-ring"
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-            />
-          </div>
-          <button
-            onClick={handleOpenAddModal}
-            className="flex items-center gap-2 px-5 py-2 rounded-xl text-sm font-bold bg-primary text-primary-foreground hover:bg-primary/90 transition-all"
+      {/* Toast */}
+      <AnimatePresence>
+        {showToast && (
+          <motion.div
+            initial={{ opacity: 0, y: -14, scale: 0.98 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: -14, scale: 0.98 }}
+            transition={{ duration: 0.18, ease: "easeOut" }}
+            className="fixed top-5 left-1/2 -translate-x-1/2 z-[220] rounded-2xl border border-border bg-card/85 backdrop-blur px-5 py-3 shadow-xl flex items-center gap-3"
           >
-            <Plus size={18} /> <span>Kurs Qo'shish</span>
-          </button>
+            <CheckCircle2 className="text-emerald-500" size={18} />
+            <span className="text-sm font-bold">
+              Kategoriya muvaffaqiyatli qo&apos;shildi
+            </span>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      <div className="relative mx-auto max-w-6xl space-y-5">
+        {/* Header Card */}
+        <div className="rounded-3xl border border-border bg-card/70 backdrop-blur supports-[backdrop-filter]:bg-card/50 p-5 sm:p-6 shadow-sm">
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+            <div>
+              <div className="flex items-center gap-2 text-primary">
+                <Layers size={18} />
+                <span className="text-[11px] font-black uppercase tracking-[0.25em] text-muted-foreground">
+                  Courses
+                </span>
+              </div>
+              <h1 className="mt-2 text-2xl sm:text-3xl font-black tracking-tight">
+                Kurslar
+              </h1>
+              <p className="mt-2 text-sm text-muted-foreground">
+                Qidirish, muzlatilganlarni filtrlash va kurslarni boshqarish.
+              </p>
+            </div>
+
+            {/* Controls */}
+            <div className="flex flex-col sm:flex-row gap-2 sm:items-center w-full lg:w-auto">
+              {/* Search */}
+              <div className="relative flex-1 sm:w-[320px]">
+                <Search
+                  className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground"
+                  size={16}
+                />
+                <input
+                  type="text"
+                  placeholder="Kurs qidirish..."
+                  className="w-full rounded-2xl border border-border bg-background/60 py-3 pl-11 pr-11 text-sm outline-none focus:ring-2 focus:ring-ring transition"
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                />
+                {!!searchTerm && (
+                  <button
+                    type="button"
+                    onClick={() => setSearchTerm("")}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 rounded-xl border border-border bg-background/60 p-1.5 hover:bg-muted/60 transition"
+                    aria-label="Clear"
+                    title="Tozalash"
+                  >
+                    <X size={14} />
+                  </button>
+                )}
+              </div>
+
+              {/* Freeze filter */}
+              <div className="relative w-full sm:w-[180px]">
+                <select
+                  value={filterFreeze}
+                  onChange={(e) => setFilterFreeze(e.target.value)}
+                  className="w-full appearance-none rounded-2xl border border-border bg-background/60 py-3 pl-4 pr-10 text-sm outline-none focus:ring-2 focus:ring-ring transition cursor-pointer"
+                >
+                  <option value="all">Barchasi</option>
+                  <option value="false">Faol</option>
+                  <option value="true">Muzlatilgan</option>
+                </select>
+                <ChevronDown
+                  className="absolute right-4 top-1/2 -translate-y-1/2 text-muted-foreground pointer-events-none"
+                  size={16}
+                />
+              </div>
+
+              {/* Add */}
+              <button
+                onClick={handleOpenAddModal}
+                className="inline-flex items-center justify-center gap-2 rounded-2xl bg-primary text-primary-foreground px-4 py-3 text-sm font-black hover:opacity-90 transition shadow-sm"
+              >
+                <Plus size={16} />
+                Kurs qo&apos;shish
+              </button>
+            </div>
+          </div>
+
+          <div className="mt-4 flex items-center justify-between text-xs text-muted-foreground">
+            <span className="inline-flex items-center gap-2">
+              <Users size={14} />
+              Natija: <b className="text-foreground">{courses.length}</b>
+            </span>
+            <span className="font-mono">{loading ? "loading..." : "ready"}</span>
+          </div>
         </div>
+
+        {/* Content */}
+        {loading ? (
+          <div className="flex justify-center py-20">
+            <Loader2 className="animate-spin text-muted-foreground" size={36} />
+          </div>
+        ) : courses.length === 0 ? (
+          <div className="rounded-3xl border border-border bg-card/70 p-10 text-center text-muted-foreground">
+            Kurs topilmadi.
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+            {courses.map((course: any) => {
+              const freezeTone = course.is_freeze ? "blue" : "green";
+              const isFreezePending =
+                toggleFreezeMutation.isPending &&
+                toggleFreezeMutation.variables?._id === course._id;
+
+              const isDeletePending =
+                deleteMutation.isPending && deleteMutation.variables === course._id;
+
+              return (
+                <div
+                  key={course._id}
+                  className={cx(
+                    "relative rounded-3xl border border-border bg-card/70 backdrop-blur supports-[backdrop-filter]:bg-card/50 p-5 shadow-sm transition-all",
+                    "hover:shadow-md hover:border-primary/25",
+                  )}
+                >
+                  {/* top badges */}
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="min-w-0">
+                      <p className="text-[10px] font-black uppercase tracking-widest text-muted-foreground">
+                        Kurs
+                      </p>
+                      <h3 className="mt-1 text-lg font-black tracking-tight truncate">
+                        {course.name}
+                      </h3>
+                      <p className="mt-1 text-xs text-muted-foreground line-clamp-2">
+                        {course.description || "—"}
+                      </p>
+                    </div>
+
+                    <div className="flex flex-col items-end gap-2">
+                      <Badge tone="amber">
+                        <BadgeDollarSign size={14} />
+                        {Number(course.price).toLocaleString()} UZS
+                      </Badge>
+
+                      <Badge tone={freezeTone}>
+                        {course.is_freeze ? (
+                          <>
+                            <Snowflake size={14} />
+                            Muzlatilgan
+                          </>
+                        ) : (
+                          <>
+                            <Flame size={14} />
+                            Faol
+                          </>
+                        )}
+                      </Badge>
+                    </div>
+                  </div>
+
+                  {/* stats */}
+                  <div className="mt-4 grid grid-cols-2 gap-3">
+                    <div className="rounded-2xl border border-border bg-background/50 p-4">
+                      <p className="text-[10px] font-black uppercase tracking-widest text-muted-foreground">
+                        Davomiylik
+                      </p>
+                      <div className="mt-2 inline-flex items-center gap-2 text-sm font-bold">
+                        <Clock size={16} className="text-primary" />
+                        <span>{course.duration || "—"}</span>
+                      </div>
+                    </div>
+
+                    <div className="rounded-2xl border border-border bg-background/50 p-4">
+                      <p className="text-[10px] font-black uppercase tracking-widest text-muted-foreground">
+                        O&apos;quvchilar
+                      </p>
+                      <div className="mt-2 inline-flex items-center gap-2 text-sm font-bold">
+                        <Users size={16} className="text-primary" />
+                        <span>{course.students_count || 0}</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* actions */}
+                  <div className="mt-5 grid grid-cols-2 gap-2">
+                    <button
+                      onClick={() => openEditModal(course)}
+                      className="inline-flex items-center justify-center gap-2 rounded-2xl border border-border bg-background/50 px-4 py-3 text-sm font-black hover:bg-muted/60 transition"
+                    >
+                      <Pencil size={16} />
+                      Edit
+                    </button>
+
+                    <button
+                      onClick={() => {
+                        if (confirm("O'chirmoqchimisiz?"))
+                          deleteMutation.mutate(course._id);
+                      }}
+                      disabled={isDeletePending}
+                      className="inline-flex items-center justify-center gap-2 rounded-2xl bg-rose-600 text-white px-4 py-3 text-sm font-black hover:opacity-90 transition disabled:opacity-60"
+                    >
+                      {isDeletePending ? (
+                        <Loader2 className="animate-spin" size={16} />
+                      ) : (
+                        <Trash2 size={16} />
+                      )}
+                      O&apos;chirish
+                    </button>
+
+                    <button
+                      onClick={() => toggleFreezeMutation.mutate(course)}
+                      disabled={isFreezePending}
+                      className={cx(
+                        "col-span-2 inline-flex items-center justify-center gap-2 rounded-2xl px-4 py-3 text-sm font-black transition disabled:opacity-60",
+                        course.is_freeze
+                          ? "border border-border bg-background/50 hover:bg-muted/60"
+                          : "bg-orange-600 text-white hover:bg-orange-700",
+                      )}
+                    >
+                      {isFreezePending ? (
+                        <Loader2 className="animate-spin" size={16} />
+                      ) : course.is_freeze ? (
+                        <>
+                          <Flame size={16} />
+                          Eritish
+                        </>
+                      ) : (
+                        <>
+                          <Snowflake size={16} />
+                          Muzlatish
+                        </>
+                      )}
+                    </button>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
 
-      {loading ? (
-        <div className="flex justify-center py-20">
-          <Loader2 className="animate-spin text-muted-foreground" size={40} />
-        </div>
-      ) : (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {courses.map((course: any) => (
-            <div
-              key={course._id}
-              className="bg-card border border-border rounded-[2rem] p-6 hover:shadow-md transition-all relative"
-            >
-              <div className="absolute top-6 right-6 border border-border bg-muted/50 px-3 py-1 rounded-xl text-xs font-semibold">
-                {Number(course.price).toLocaleString()} UZS
+      {/* ADD MODAL (2 steps) */}
+      <ModalShell
+        open={isAddModalOpen}
+        onClose={() => setIsAddModalOpen(false)}
+        title={addStep === 1 ? "Yangi kurs qo'shish" : "Kurs tafsilotlari"}
+        subtitle={
+          addStep === 1
+            ? "Avval kategoriya (kurs nomi) yaratiladi."
+            : "Duration, price va description kiriting."
+        }
+        width="max-w-xl"
+      >
+        {addStep === 1 ? (
+          <div className="space-y-4">
+            <div className="space-y-2">
+              <label className="text-[11px] font-black uppercase tracking-widest text-muted-foreground">
+                Kurs nomi
+              </label>
+              <input
+                autoFocus
+                value={newCourse.name}
+                onChange={(e) =>
+                  setNewCourse({ ...newCourse, name: e.target.value })
+                }
+                className="w-full rounded-2xl border border-border bg-background/60 px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-ring transition"
+                placeholder="Frontend Dasturlash"
+              />
+              <p className="text-[11px] text-muted-foreground">
+                Nom majburiy (unikal bo‘lishi kerak).
+              </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-2 pt-2">
+              <button
+                type="button"
+                onClick={() => setIsAddModalOpen(false)}
+                className="flex-1 rounded-2xl border border-border bg-background/50 px-4 py-3 text-sm font-black hover:bg-muted/60 transition"
+              >
+                Bekor qilish
+              </button>
+
+              <button
+                type="button"
+                onClick={handleNextStep}
+                disabled={createCategoryMutation.isPending || !newCourse.name.trim()}
+                className="flex-1 rounded-2xl bg-primary text-primary-foreground px-4 py-3 text-sm font-black hover:opacity-90 transition shadow-sm inline-flex items-center justify-center gap-2 disabled:opacity-60"
+              >
+                {createCategoryMutation.isPending ? (
+                  <Loader2 className="animate-spin" size={16} />
+                ) : (
+                  <>
+                    <Plus size={16} />
+                    Yaratish
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
+        ) : (
+          <div className="space-y-4">
+            <div className="rounded-2xl border border-border bg-background/50 p-4">
+              <p className="text-[10px] font-black uppercase tracking-widest text-muted-foreground">
+                Kurs nomi
+              </p>
+              <p className="mt-1 text-sm font-black">{newCourse.name}</p>
+            </div>
+
+            <div className="space-y-2">
+              <label className="text-[11px] font-black uppercase tracking-widest text-muted-foreground">
+                Description
+              </label>
+              <textarea
+                rows={3}
+                value={newCourse.description}
+                onChange={(e) =>
+                  setNewCourse({ ...newCourse, description: e.target.value })
+                }
+                className="w-full rounded-2xl border border-border bg-background/60 px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-ring transition resize-none"
+              />
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="space-y-2">
+                <label className="text-[11px] font-black uppercase tracking-widest text-muted-foreground">
+                  Duration
+                </label>
+                <input
+                  value={newCourse.duration}
+                  onChange={(e) =>
+                    setNewCourse({ ...newCourse, duration: e.target.value })
+                  }
+                  className="w-full rounded-2xl border border-border bg-background/60 px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-ring transition"
+                />
               </div>
-              <h3 className="text-xl font-bold mb-4 pr-16">{course.name}</h3>
-              <div className="space-y-3 mb-8 text-muted-foreground text-sm">
-                <div className="flex items-center gap-2">
-                  <Clock size={14} /> <span>{course.duration}</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Users size={14} />{" "}
-                  <span>{course.students_count} students</span>
-                </div>
-              </div>
-              <div className="flex flex-col gap-2">
-                <div className="flex gap-2">
-                  <button
-                    onClick={() => openEditModal(course)}
-                    className="flex-1 border border-input bg-secondary text-secondary-foreground py-2 rounded-xl text-xs font-bold hover:bg-secondary/80 transition-all"
-                  >
-                    Edit
-                  </button>
-                  <button
-                    onClick={() => {
-                      if (confirm("O'chirmoqchimisiz?"))
-                        deleteMutation.mutate(course._id);
-                    }}
-                    className="flex-1 bg-destructive text-destructive-foreground py-2 rounded-xl text-xs font-bold transition-all hover:bg-destructive/90"
-                  >
-                    {deleteMutation.isPending &&
-                    deleteMutation.variables === course._id ? (
-                      <Loader2 className="animate-spin mx-auto" size={14} />
-                    ) : (
-                      "O'chirish"
-                    )}
-                  </button>
-                </div>
-                <button
-                  onClick={() => toggleFreezeMutation.mutate(course)}
-                  className={`w-full py-2 rounded-xl text-xs font-bold transition-all ${
-                    course.is_freeze
-                      ? "border border-input hover:bg-accent"
-                      : "bg-orange-600 text-white hover:bg-orange-700"
-                  }`}
-                >
-                  {toggleFreezeMutation.isPending &&
-                  toggleFreezeMutation.variables?._id === course._id ? (
-                    <Loader2 className="animate-spin mx-auto" size={14} />
-                  ) : course.is_freeze ? (
-                    <span className="flex items-center justify-center gap-1">
-                      <Flame size={12} /> Eritish
-                    </span>
-                  ) : (
-                    <span className="flex items-center justify-center gap-1">
-                      <Snowflake size={12} /> Muzlatish
-                    </span>
-                  )}
-                </button>
+
+              <div className="space-y-2">
+                <label className="text-[11px] font-black uppercase tracking-widest text-muted-foreground">
+                  Price (UZS)
+                </label>
+                <input
+                  type="number"
+                  value={newCourse.price}
+                  onChange={(e) =>
+                    setNewCourse({ ...newCourse, price: e.target.value })
+                  }
+                  className="w-full rounded-2xl border border-border bg-background/60 px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-ring transition"
+                />
               </div>
             </div>
-          ))}
-        </div>
-      )}
 
-      {/* --- ADD COURSE MODAL --- */}
-      {isAddModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-background/80 backdrop-blur-sm p-4">
-          <div className="bg-card border border-border w-full max-w-[500px] rounded-[32px] p-8 shadow-2xl relative">
-            <button
-              onClick={() => setIsAddModalOpen(false)}
-              className="absolute top-6 right-6 text-muted-foreground hover:text-foreground"
-            >
-              <X size={20} />
-            </button>
-            <h2 className="text-xl font-bold mb-6">
-              {addStep === 1 ? "Yangi Kurs Qo'shish" : "Kurs Yaratish"}
-            </h2>
+            <div className="flex flex-col sm:flex-row gap-2 pt-2">
+              <button
+                type="button"
+                onClick={() => setIsAddModalOpen(false)}
+                className="flex-1 rounded-2xl border border-border bg-background/50 px-4 py-3 text-sm font-black hover:bg-muted/60 transition"
+              >
+                Bekor qilish
+              </button>
 
-            {addStep === 1 ? (
-              <div className="space-y-6">
-                <div className="space-y-2">
-                  <label className="text-xs font-medium text-destructive uppercase">
-                    Kurs nomi
-                  </label>
-                  <input
-                    autoFocus
-                    type="text"
-                    value={newCourse.name}
-                    onChange={(e) =>
-                      setNewCourse({ ...newCourse, name: e.target.value })
-                    }
-                    className="w-full bg-muted border border-input rounded-xl px-4 py-3 text-foreground outline-none focus:ring-1 focus:ring-destructive"
-                    placeholder="Frontend Dasturlash"
-                  />
-                  <p className="text-[10px] text-destructive italic">
-                    Nom majburiy
-                  </p>
-                </div>
-                <div className="flex justify-end">
-                  <button
-                    onClick={handleNextStep}
-                    disabled={
-                      createCategoryMutation.isPending || !newCourse.name.trim()
-                    }
-                    className="bg-primary text-primary-foreground px-6 py-2.5 rounded-xl font-bold text-sm hover:bg-primary/90 transition-all"
-                  >
-                    {createCategoryMutation.isPending ? (
-                      <Loader2 className="animate-spin" size={18} />
-                    ) : (
-                      "Yaratish"
-                    )}
-                  </button>
-                </div>
-              </div>
-            ) : (
-              <div className="space-y-5">
-                <div className="space-y-2">
-                  <label className="text-xs font-medium text-muted-foreground">
-                    Kurs nomi
-                  </label>
-                  <input
-                    type="text"
-                    value={newCourse.name}
-                    readOnly
-                    className="w-full bg-muted/50 border border-input rounded-xl px-4 py-2 text-muted-foreground cursor-not-allowed outline-none"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <label className="text-xs font-bold text-foreground uppercase tracking-widest">
-                    Course Details
-                  </label>
-                  <label className="block text-[11px] text-muted-foreground">
-                    Description
-                  </label>
-                  <textarea
-                    rows={3}
-                    value={newCourse.description}
-                    onChange={(e) =>
-                      setNewCourse({
-                        ...newCourse,
-                        description: e.target.value,
-                      })
-                    }
-                    className="w-full bg-muted border border-input rounded-xl px-4 py-2 text-foreground outline-none resize-none focus:ring-1 focus:ring-ring"
-                  />
-                </div>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="space-y-1">
-                    <label className="text-[11px] text-muted-foreground">
-                      Duration
-                    </label>
-                    <input
-                      type="text"
-                      value={newCourse.duration}
-                      onChange={(e) =>
-                        setNewCourse({ ...newCourse, duration: e.target.value })
-                      }
-                      className="w-full bg-muted border border-input rounded-xl px-4 py-2 text-foreground outline-none focus:ring-1 focus:ring-ring"
-                    />
-                  </div>
-                  <div className="space-y-1">
-                    <label className="text-[11px] text-muted-foreground">
-                      Price (UZS)
-                    </label>
-                    <input
-                      type="number"
-                      value={newCourse.price}
-                      onChange={(e) =>
-                        setNewCourse({ ...newCourse, price: e.target.value })
-                      }
-                      className="w-full bg-muted border border-input rounded-xl px-4 py-2 text-foreground outline-none focus:ring-1 focus:ring-ring"
-                    />
-                  </div>
-                </div>
-                <div className="flex gap-3 pt-4">
-                  <button
-                    onClick={() => setIsAddModalOpen(false)}
-                    className="flex-1 bg-secondary text-secondary-foreground hover:bg-secondary/80 py-2.5 rounded-xl font-bold text-sm"
-                  >
-                    Cancel
-                  </button>
-                  <button
-                    onClick={handleCreateFinal}
-                    disabled={saveCourseMutation.isPending}
-                    className="flex-1 bg-primary text-primary-foreground hover:bg-primary/90 py-2.5 rounded-xl font-bold text-sm flex justify-center items-center transition-all"
-                  >
-                    {saveCourseMutation.isPending ? (
-                      <Loader2 className="animate-spin" size={18} />
-                    ) : (
-                      "Save Changes"
-                    )}
-                  </button>
-                </div>
-              </div>
-            )}
+              <button
+                type="button"
+                onClick={handleCreateFinal}
+                disabled={saveCourseMutation.isPending}
+                className="flex-1 rounded-2xl bg-primary text-primary-foreground px-4 py-3 text-sm font-black hover:opacity-90 transition shadow-sm inline-flex items-center justify-center gap-2 disabled:opacity-60"
+              >
+                {saveCourseMutation.isPending ? (
+                  <Loader2 className="animate-spin" size={16} />
+                ) : (
+                  "Saqlash"
+                )}
+              </button>
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </ModalShell>
 
-      {/* --- EDIT MODAL --- */}
-      {isEditModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-background/80 backdrop-blur-sm p-4">
-          <div className="bg-card border border-border w-full max-w-[400px] rounded-[32px] p-8 shadow-2xl relative">
+      {/* EDIT MODAL */}
+      <ModalShell
+        open={isEditModalOpen}
+        onClose={() => {
+          setIsEditModalOpen(false);
+          setSelectedCourse(null);
+        }}
+        title="Kursni tahrirlash"
+        subtitle={selectedCourse ? `Kurs: ${selectedCourse.name}` : undefined}
+        width="max-w-lg"
+      >
+        <div className="space-y-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="space-y-2">
+              <label className="text-[11px] font-black uppercase tracking-widest text-muted-foreground">
+                Davomiylik
+              </label>
+              <input
+                value={editData.duration}
+                onChange={(e) =>
+                  setEditData({ ...editData, duration: e.target.value })
+                }
+                className="w-full rounded-2xl border border-border bg-background/60 px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-ring transition"
+              />
+            </div>
+
+            <div className="space-y-2">
+              <label className="text-[11px] font-black uppercase tracking-widest text-muted-foreground">
+                Narx (UZS)
+              </label>
+              <input
+                type="number"
+                value={editData.price}
+                onChange={(e) =>
+                  setEditData({ ...editData, price: e.target.value })
+                }
+                className="w-full rounded-2xl border border-border bg-background/60 px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-ring transition"
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-2 pt-2">
             <button
+              type="button"
               onClick={() => {
                 setIsEditModalOpen(false);
                 setSelectedCourse(null);
               }}
-              className="absolute top-6 right-6 text-muted-foreground hover:text-foreground"
+              className="flex-1 rounded-2xl border border-border bg-background/50 px-4 py-3 text-sm font-black hover:bg-muted/60 transition"
             >
-              <X size={20} />
+              Bekor qilish
             </button>
-            <h2 className="text-xl font-bold mb-6">Kursni Tahrirlash</h2>
-            <div className="space-y-6">
-              <div className="space-y-2">
-                <label className="text-sm font-medium text-muted-foreground">
-                  Davomiylik
-                </label>
-                <input
-                  type="text"
-                  value={editData.duration}
-                  onChange={(e) =>
-                    setEditData({ ...editData, duration: e.target.value })
-                  }
-                  className="w-full bg-muted border border-input rounded-xl px-4 py-3 text-foreground outline-none focus:ring-1 focus:ring-ring"
-                />
-              </div>
-              <div className="space-y-2">
-                <label className="text-sm font-medium text-muted-foreground">
-                  Narx (UZS)
-                </label>
-                <input
-                  type="number"
-                  value={editData.price}
-                  onChange={(e) =>
-                    setEditData({ ...editData, price: e.target.value })
-                  }
-                  className="w-full bg-muted border border-input rounded-xl px-4 py-3 text-foreground outline-none focus:ring-1 focus:ring-ring"
-                />
-              </div>
-              <div className="flex gap-3 pt-2">
-                <button
-                  onClick={() => {
-                    setIsEditModalOpen(false);
-                    setSelectedCourse(null);
-                  }}
-                  className="flex-1 bg-secondary text-secondary-foreground py-3 rounded-xl font-bold text-sm hover:bg-secondary/80"
-                >
-                  Bekor qilish
-                </button>
-                <button
-                  onClick={handleUpdate}
-                  disabled={saveCourseMutation.isPending || !selectedCourse}
-                  className="flex-1 bg-primary text-primary-foreground py-3 rounded-xl font-bold text-sm flex justify-center items-center hover:bg-primary/90 transition-all"
-                >
-                  {saveCourseMutation.isPending ? (
-                    <Loader2 className="animate-spin" size={20} />
-                  ) : (
-                    "Saqlash"
-                  )}
-                </button>
-              </div>
-            </div>
+
+            <button
+              type="button"
+              onClick={handleUpdate}
+              disabled={saveCourseMutation.isPending || !selectedCourse}
+              className="flex-1 rounded-2xl bg-primary text-primary-foreground px-4 py-3 text-sm font-black hover:opacity-90 transition shadow-sm inline-flex items-center justify-center gap-2 disabled:opacity-60"
+            >
+              {saveCourseMutation.isPending ? (
+                <Loader2 className="animate-spin" size={16} />
+              ) : (
+                "Saqlash"
+              )}
+            </button>
           </div>
         </div>
-      )}
+      </ModalShell>
     </div>
   );
 }

@@ -1,14 +1,232 @@
-[00:00:01.128] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:01.325] Server  LOG     ✓ Ready in 950ms
-[00:00:05.708] Server  LOG     ○ Compiling /login ...
-[00:00:08.045] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:18.259] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[00:00:01.180] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.349] Server  LOG     ✓ Ready in 955ms
+[00:00:04.682] Server  LOG     ○ Compiling /adminss ...
+[00:00:05.212] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.303] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.576] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:00:18.259] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+[00:00:05.576] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
        please check the style of container, or the props width(100%) and height(100%),
        or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
        height and width.
-[00:00:19.290] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk2NjI1NywiZXhwIjoxNzcxOTY5ODU3fQ.swtgzEJ4iggjGeB6FV_j3KPMaDHN9S1_x87SJwML2Sw"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1940:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2458:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3264:49)\n    at async Promise.all (index 1)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:58:71)","status":404}
-[00:00:19.908] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk2NjI1NywiZXhwIjoxNzcxOTY5ODU3fQ.swtgzEJ4iggjGeB6FV_j3KPMaDHN9S1_x87SJwML2Sw"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1940:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2458:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3264:49)\n    at async Promise.all (index 1)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:58:71)","status":404}
+[00:00:06.123] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk3NzQ1MiwiZXhwIjoxNzcxOTgxMDUyfQ.KcxLC8xylAdYCIIgcGjmqwpcSf7uJBFj3fHMZ3C0RyY"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/group/get-all-group","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 403","name":"AxiosError","stack":"AxiosError: Request failed with status code 403\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1940:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2458:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3264:49)\n    at async Promise.all (index 0)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:125:71)","status":403}
+[00:00:06.405] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/adminss" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="(main)/adm...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function AdminPanel} serverProvidedParams={{...}}>
+                <AdminPanel params={Promise} searchParams={Promise}>
+                  <div className="w-full p-2...">
+                    <div className="max-w-6xl ...">
+                      <div>
+                      <div className="rounded-xl...">
+                        <table className="w-full tex...">
+                          <thead>
+                          <tbody className="text-xs md...">
+                            <SkeletonRow>
++                             <tr className="border-t border-zinc-200 dark:border-zinc-800 animate-pulse">
+                            ...
+            ...
+          ...
+
+[00:01:17.420] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:17.746] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/menagers" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html lang="uz" suppressHydrationWarning={true}>
+                            <head>
+                            <body
+                              className="inter_5901b7c6-module__ec5Qua__variable geist_a71539c9-module__T19VSG__variab..."
+-                             cz-shortcut-listen="true"
+                            >
+                              ...
+                                <table className="w-full tex...">
+                                  <thead>
+                                  <tbody className="text-xs sm...">
+                                    <SkeletonRow>
++                                     <tr className="border-t border-zinc-200 dark:border-zinc-800 animate-pulse">
+                                    ...
+                  ...
+
+[00:02:02.118] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:02.396] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/login" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <ClientSegmentRoot Component={function RootLayout} slots={{...}} ...>
+                        <RootLayout params={Promise}>
+                          <html lang="uz" suppressHydrationWarning={true}>
+                            <head>
+                            <body
+                              className="inter_5901b7c6-module__ec5Qua__variable geist_a71539c9-module__T19VSG__variab..."
+-                             cz-shortcut-listen="true"
+                            >
+                  ...
+
+[00:02:11.357] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:11.357] Browser WARN    The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+[00:02:12.447] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk5NzYyMywiZXhwIjoxNzcyMDAxMjIzfQ.MJsYDqiXjnGoTGsMCxzycoJbBmIradLCumNcb7VjsHE"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1940:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2458:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3264:49)\n    at async Promise.all (index 1)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:125:71)","status":404}
+[00:02:13.069] Browser ERROR   Dashboard xatosi: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk5NzYyMywiZXhwIjoxNzcyMDAxMjIzfQ.MJsYDqiXjnGoTGsMCxzycoJbBmIradLCumNcb7VjsHE"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/student/get-all-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:1940:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:2458:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_axios_lib_99e19c7d._.js:3264:49)\n    at async Promise.all (index 1)\n    at async Asosiy.useEffect.fetchDashboardData (http://localhost:3000/_next/static/chunks/app_page_tsx_dda9881a._.js:125:71)","status":404}
+[00:02:55.963] Server  LOG     ✓ Compiled in 488ms
+[00:08:55.355] Server  LOG     ✓ Compiled in 869ms
+[00:11:10.041] Server  LOG     ✓ Compiled in 374ms
+[00:11:12.466] Server  LOG     ✓ Compiled in 480ms
+[00:11:15.425] Server  LOG     ✓ Compiled in 201ms
+[00:11:17.696] Server  LOG     ✓ Compiled in 261ms
+[00:15:10.036] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:10.418] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/adminss" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+            <SegmentViewNode type="page" pagePath="(main)/adm...">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function AdminPanel} serverProvidedParams={{...}}>
+                <AdminPanel params={Promise} searchParams={Promise}>
+                  <div className="w-full p-2...">
+                    <div className="max-w-6xl ...">
+                      <div>
+                      <div className="rounded-xl...">
+                        <table className="w-full tex...">
+                          <thead>
+                          <tbody className="text-xs md...">
+                            <SkeletonRow>
++                             <tr className="border-t border-zinc-200 dark:border-zinc-800 animate-pulse">
+                            ...
+            ...
+          ...
+
+[00:16:32.852] Server  LOG     ✓ Compiled in 1004ms
+[00:22:19.152] Server  LOG     ✓ Compiled in 84ms
+[00:22:44.042] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:44.222] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="teachers/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/teachers" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+              <SegmentViewNode type="page" pagePath="(main)/tea...">
+                <SegmentTrieNode>
+                <ClientPageRoot Component={function Teachers} serverProvidedParams={{...}}>
+                  <Teachers params={Promise} searchParams={Promise}>
+                    <div className="w-full p-3...">
+                      <div>
+                      <div className="w-full ove...">
+                        <table className="w-full tex...">
+                          <thead>
+                          <tbody className="text-xs sm...">
+                            <SkeletonRow>
++                             <tr className="border-t border-border animate-pulse">
+                            ...
+              ...
+            ...
+
+[00:29:35.504] Server  LOG     ✓ Compiled in 879ms
+[00:36:21.608] Server  LOG     ✓ Compiled in 801ms
+[00:36:31.847] Server  LOG     ✓ Compiled in 225ms
+[00:49:28.879] Server  LOG     ✓ Compiled in 980ms
+[01:03:36.408] Browser ERROR   Qarzdorlarni yuklashda xato: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk5NzYyMywiZXhwIjoxNzcyMDAxMjIzfQ.MJsYDqiXjnGoTGsMCxzycoJbBmIradLCumNcb7VjsHE"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"month":"2025-05"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/payment/get-debtors-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 403","name":"AxiosError","stack":"AxiosError: Request failed with status code 403\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:4789:49)\n    at async Payment.useCallback[fetchDebtors] (http://localhost:3000/_next/static/chunks/app_(main)_payment_page_tsx_e7ba2a87._.js:47:34)","status":403}
+[01:03:36.408] Browser ERROR   Qarzdorlarni yuklashda xato: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk5NzYyMywiZXhwIjoxNzcyMDAxMjIzfQ.MJsYDqiXjnGoTGsMCxzycoJbBmIradLCumNcb7VjsHE"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"month":"2025-05"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/payment/get-debtors-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 403","name":"AxiosError","stack":"AxiosError: Request failed with status code 403\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:4789:49)\n    at async Payment.useCallback[fetchDebtors] (http://localhost:3000/_next/static/chunks/app_(main)_payment_page_tsx_e7ba2a87._.js:47:34)","status":403}
+[01:11:59.491] Server  LOG     ✓ Compiled in 727ms
+[01:12:23.018] Browser ERROR   Qarzdorlarni yuklashda xato: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk5NzYyMywiZXhwIjoxNzcyMDAxMjIzfQ.MJsYDqiXjnGoTGsMCxzycoJbBmIradLCumNcb7VjsHE"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"month":"2025-05"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/payment/get-debtors-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 403","name":"AxiosError","stack":"AxiosError: Request failed with status code 403\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:4789:49)\n    at async Payment.useCallback[fetchDebtors] (http://localhost:3000/_next/static/chunks/app_(main)_payment_page_tsx_e7ba2a87._.js?id=%255Bproject%255D%252Fapp%252F%2528main%2529%252Fpayment%252Fpage.tsx+%255Bapp-client%255D+%2528ecmascript%2529:215:34)","status":403}
+[01:12:23.149] Browser ERROR   Qarzdorlarni yuklashda xato: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OWMzMTU4OTQ1NWZjNWM1MTg1NzNhNiIsImlhdCI6MTc3MTk5NzYyMywiZXhwIjoxNzcyMDAxMjIzfQ.MJsYDqiXjnGoTGsMCxzycoJbBmIradLCumNcb7VjsHE"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","params":{"month":"2025-05"},"timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"legacyInterceptorReqResOrdering":true,"silentJSONParsing":true},"url":"https://admin-crm.onrender.com/api/payment/get-debtors-student","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 403","name":"AxiosError","stack":"AxiosError: Request failed with status code 403\n    at settle (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3465:16)\n    at XMLHttpRequest.onloadend (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:3983:174)\n    at Axios.request (http://localhost:3000/_next/static/chunks/node_modules_04ea7820._.js:4789:49)\n    at async Payment.useCallback[fetchDebtors] (http://localhost:3000/_next/static/chunks/app_(main)_payment_page_tsx_e7ba2a87._.js?id=%255Bproject%255D%252Fapp%252F%2528main%2529%252Fpayment%252Fpage.tsx+%255Bapp-client%255D+%2528ecmascript%2529:215:34)","status":403}

@@ -4,7 +4,7 @@
 
 __turbopack_context__.s([
     "default",
-    ()=>__TURBOPACK__default__export__
+    ()=>AdminPanel
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
@@ -22,8 +22,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript) <export default as X>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chevron-down.js [app-client] (ecmascript) <export default as ChevronDown>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$rotate$2d$ccw$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__RotateCcw$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/rotate-ccw.js [app-client] (ecmascript) <export default as RotateCcw>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shield.js [app-client] (ecmascript) <export default as Shield>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/users.js [app-client] (ecmascript) <export default as Users>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mail.js [app-client] (ecmascript) <export default as Mail>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$badge$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BadgeCheck$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/badge-check.js [app-client] (ecmascript) <export default as BadgeCheck>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$triangle$2d$alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__AlertTriangle$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/triangle-alert.js [app-client] (ecmascript) <export default as AlertTriangle>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs [app-client] (ecmascript)");
 ;
-var _s = __turbopack_context__.k.signature();
+var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
@@ -31,138 +38,150 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-const SkeletonRow = ()=>{
+;
+const cx = (...c)=>c.filter(Boolean).join(" ");
+function useOnClickOutside(ref, handler) {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(5);
+    if ($[0] !== "37d85a0d9c5d67618f70b8482c98aa2620b9b85c6d4ba2edf5da6cac31b5dbb3") {
+        for(let $i = 0; $i < 5; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "37d85a0d9c5d67618f70b8482c98aa2620b9b85c6d4ba2edf5da6cac31b5dbb3";
+    }
+    let t0;
+    let t1;
+    if ($[1] !== handler || $[2] !== ref) {
+        t0 = ({
+            "useOnClickOutside[useEffect()]": ()=>{
+                const listener = {
+                    "useOnClickOutside[useEffect() > listener]": (e)=>{
+                        const el = ref?.current;
+                        if (!el || el.contains(e.target)) {
+                            return;
+                        }
+                        handler();
+                    }
+                }["useOnClickOutside[useEffect() > listener]"];
+                document.addEventListener("mousedown", listener);
+                document.addEventListener("touchstart", listener);
+                return ()=>{
+                    document.removeEventListener("mousedown", listener);
+                    document.removeEventListener("touchstart", listener);
+                };
+            }
+        })["useOnClickOutside[useEffect()]"];
+        t1 = [
+            ref,
+            handler
+        ];
+        $[1] = handler;
+        $[2] = ref;
+        $[3] = t0;
+        $[4] = t1;
+    } else {
+        t0 = $[3];
+        t1 = $[4];
+    }
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t0, t1);
+}
+_s(useOnClickOutside, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+const Badge = (t0)=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(6);
-    if ($[0] !== "eaac2fe28fe69b293c39ec9dcbc463f227c4bf2350e45bc10d40a993f551cf05") {
+    if ($[0] !== "37d85a0d9c5d67618f70b8482c98aa2620b9b85c6d4ba2edf5da6cac31b5dbb3") {
         for(let $i = 0; $i < 6; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "eaac2fe28fe69b293c39ec9dcbc463f227c4bf2350e45bc10d40a993f551cf05";
+        $[0] = "37d85a0d9c5d67618f70b8482c98aa2620b9b85c6d4ba2edf5da6cac31b5dbb3";
+    }
+    const { tone: t1, children } = t0;
+    const tone = t1 === undefined ? "neutral" : t1;
+    const styles = tone === "green" ? "bg-emerald-500/10 text-emerald-500 border-emerald-500/20" : tone === "red" ? "bg-rose-500/10 text-rose-500 border-rose-500/20" : tone === "blue" ? "bg-blue-500/10 text-blue-500 border-blue-500/20" : tone === "amber" ? "bg-amber-500/10 text-amber-500 border-amber-500/20" : "bg-muted/50 text-muted-foreground border-border";
+    let t2;
+    if ($[1] !== styles) {
+        t2 = cx("inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-[10px] sm:text-[11px] font-black uppercase tracking-widest whitespace-nowrap", styles);
+        $[1] = styles;
+        $[2] = t2;
+    } else {
+        t2 = $[2];
+    }
+    let t3;
+    if ($[3] !== children || $[4] !== t2) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: t2,
+            children: children
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 84,
+            columnNumber: 10
+        }, ("TURBOPACK compile-time value", void 0));
+        $[3] = children;
+        $[4] = t2;
+        $[5] = t3;
+    } else {
+        t3 = $[5];
+    }
+    return t3;
+};
+_c = Badge;
+const SkeletonRow = ()=>{
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(3);
+    if ($[0] !== "37d85a0d9c5d67618f70b8482c98aa2620b9b85c6d4ba2edf5da6cac31b5dbb3") {
+        for(let $i = 0; $i < 3; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "37d85a0d9c5d67618f70b8482c98aa2620b9b85c6d4ba2edf5da6cac31b5dbb3";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
-        t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-            className: "p-4",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "h-4 bg-zinc-200 dark:bg-zinc-800 rounded w-3/4"
-            }, void 0, false, {
-                fileName: "[project]/app/(main)/adminss/page.tsx",
-                lineNumber: 27,
-                columnNumber: 30
-            }, ("TURBOPACK compile-time value", void 0))
-        }, void 0, false, {
-            fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 27,
-            columnNumber: 10
-        }, ("TURBOPACK compile-time value", void 0));
+        t0 = Array.from({
+            length: 4
+        }).map(_temp);
         $[1] = t0;
     } else {
         t0 = $[1];
     }
     let t1;
     if ($[2] === Symbol.for("react.memo_cache_sentinel")) {
-        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-            className: "p-4",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "h-4 bg-zinc-200 dark:bg-zinc-800 rounded w-full"
-            }, void 0, false, {
-                fileName: "[project]/app/(main)/adminss/page.tsx",
-                lineNumber: 34,
-                columnNumber: 30
-            }, ("TURBOPACK compile-time value", void 0))
-        }, void 0, false, {
+        t1 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+            className: "border-t border-border/70",
+            children: [
+                t0,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                    className: "p-4 text-right",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "ml-auto h-9 w-28 rounded-2xl bg-muted animate-pulse"
+                    }, void 0, false, {
+                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                        lineNumber: 112,
+                        columnNumber: 87
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                    lineNumber: 112,
+                    columnNumber: 56
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
             fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 34,
+            lineNumber: 112,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[2] = t1;
     } else {
         t1 = $[2];
     }
-    let t2;
-    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-            className: "p-4",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "h-4 bg-zinc-200 dark:bg-zinc-800 rounded w-12"
-            }, void 0, false, {
-                fileName: "[project]/app/(main)/adminss/page.tsx",
-                lineNumber: 41,
-                columnNumber: 30
-            }, ("TURBOPACK compile-time value", void 0))
-        }, void 0, false, {
-            fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 41,
-            columnNumber: 10
-        }, ("TURBOPACK compile-time value", void 0));
-        $[3] = t2;
-    } else {
-        t2 = $[3];
-    }
-    let t3;
-    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-            className: "p-4",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "h-4 bg-zinc-200 dark:bg-zinc-800 rounded w-16"
-            }, void 0, false, {
-                fileName: "[project]/app/(main)/adminss/page.tsx",
-                lineNumber: 48,
-                columnNumber: 30
-            }, ("TURBOPACK compile-time value", void 0))
-        }, void 0, false, {
-            fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 48,
-            columnNumber: 10
-        }, ("TURBOPACK compile-time value", void 0));
-        $[4] = t3;
-    } else {
-        t3 = $[4];
-    }
-    let t4;
-    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
-            className: "border-t border-zinc-200 dark:border-zinc-800 animate-pulse",
-            children: [
-                t0,
-                t1,
-                t2,
-                t3,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                    className: "p-4 text-right",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "h-8 w-16 bg-zinc-200 dark:bg-zinc-800 rounded ml-auto"
-                    }, void 0, false, {
-                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                        lineNumber: 55,
-                        columnNumber: 133
-                    }, ("TURBOPACK compile-time value", void 0))
-                }, void 0, false, {
-                    fileName: "[project]/app/(main)/adminss/page.tsx",
-                    lineNumber: 55,
-                    columnNumber: 102
-                }, ("TURBOPACK compile-time value", void 0))
-            ]
-        }, void 0, true, {
-            fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 55,
-            columnNumber: 10
-        }, ("TURBOPACK compile-time value", void 0));
-        $[5] = t4;
-    } else {
-        t4 = $[5];
-    }
-    return t4;
+    return t1;
 };
-_c = SkeletonRow;
-const AdminPanel = ()=>{
-    _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(75);
-    if ($[0] !== "eaac2fe28fe69b293c39ec9dcbc463f227c4bf2350e45bc10d40a993f551cf05") {
-        for(let $i = 0; $i < 75; $i += 1){
+_c1 = SkeletonRow;
+function AdminPanel() {
+    _s1();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(97);
+    if ($[0] !== "37d85a0d9c5d67618f70b8482c98aa2620b9b85c6d4ba2edf5da6cac31b5dbb3") {
+        for(let $i = 0; $i < 97; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "eaac2fe28fe69b293c39ec9dcbc463f227c4bf2350e45bc10d40a993f551cf05";
+        $[0] = "37d85a0d9c5d67618f70b8482c98aa2620b9b85c6d4ba2edf5da6cac31b5dbb3";
     }
     const queryClient = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$QueryClientProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useQueryClient"])();
     const [searchTerm, setSearchTerm] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
@@ -260,7 +279,7 @@ const AdminPanel = ()=>{
                     ]
                 });
             },
-            onError: _temp
+            onError: _temp2
         };
         $[8] = queryClient;
         $[9] = t6;
@@ -294,7 +313,7 @@ const AdminPanel = ()=>{
                 });
                 alert("Muvaffaqiyatli o'chirildi");
             },
-            onError: _temp2
+            onError: _temp3
         };
         $[11] = queryClient;
         $[12] = t8;
@@ -338,7 +357,7 @@ const AdminPanel = ()=>{
         t11 = {
             mutationFn: t9,
             onSuccess: t10,
-            onError: _temp3
+            onError: _temp4
         };
         $[17] = t10;
         $[18] = t9;
@@ -349,15 +368,16 @@ const AdminPanel = ()=>{
     const saveMutation = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$useMutation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMutation"])(t11);
     let t12;
     if ($[20] !== admins || $[21] !== searchTerm) {
-        let t13;
-        if ($[23] !== searchTerm) {
-            t13 = (admin_0)=>`${admin_0.first_name} ${admin_0.last_name} ${admin_0.email}`.toLowerCase().includes(searchTerm.toLowerCase());
-            $[23] = searchTerm;
-            $[24] = t13;
-        } else {
-            t13 = $[24];
+        bb0: {
+            const s = searchTerm.trim().toLowerCase();
+            if (!s) {
+                t12 = admins;
+                break bb0;
+            }
+            t12 = admins.filter({
+                "AdminPanel[admins.filter()]": (admin_0)=>`${admin_0.first_name} ${admin_0.last_name} ${admin_0.email}`.toLowerCase().includes(s)
+            }["AdminPanel[admins.filter()]"]);
         }
-        t12 = admins.filter(t13);
         $[20] = admins;
         $[21] = searchTerm;
         $[22] = t12;
@@ -366,860 +386,1371 @@ const AdminPanel = ()=>{
     }
     const filteredData = t12;
     let t13;
-    if ($[25] !== statusMutation) {
-        t13 = (admin_1)=>{
-            const isRestoring_0 = admin_1.status === "ishdan bo'shatilgan";
-            if (confirm(isRestoring_0 ? "Ishga qaytarmoqchimisiz?" : "Ishdan bo'shatmoqchimisiz?")) {
-                statusMutation.mutate(admin_1);
+    if ($[23] !== statusMutation) {
+        t13 = ({
+            "AdminPanel[handleStatusToggle]": (admin_1)=>{
+                const isRestoring_0 = admin_1.status === "ishdan bo'shatilgan";
+                if (confirm(isRestoring_0 ? "Ishga qaytarmoqchimisiz?" : "Ishdan bo'shatmoqchimisiz?")) {
+                    statusMutation.mutate(admin_1);
+                }
             }
-        };
-        $[25] = statusMutation;
-        $[26] = t13;
+        })["AdminPanel[handleStatusToggle]"];
+        $[23] = statusMutation;
+        $[24] = t13;
     } else {
-        t13 = $[26];
+        t13 = $[24];
     }
     const handleStatusToggle = t13;
     let t14;
-    if ($[27] !== deleteMutation) {
-        t14 = (id_0)=>{
-            if (confirm("Haqiqatan ham ushbu adminni bazadan butunlay o'chirmoqchimisiz?")) {
-                deleteMutation.mutate(id_0);
+    if ($[25] !== deleteMutation) {
+        t14 = ({
+            "AdminPanel[handleDelete]": (id_0)=>{
+                if (confirm("Haqiqatan ham ushbu adminni bazadan butunlay o'chirmoqchimisiz?")) {
+                    deleteMutation.mutate(id_0);
+                }
             }
-        };
-        $[27] = deleteMutation;
-        $[28] = t14;
+        })["AdminPanel[handleDelete]"];
+        $[25] = deleteMutation;
+        $[26] = t14;
     } else {
-        t14 = $[28];
+        t14 = $[26];
     }
     const handleDelete = t14;
     let t15;
-    if ($[29] === Symbol.for("react.memo_cache_sentinel")) {
-        t15 = (t16)=>{
-            const admin_2 = t16 === undefined ? null : t16;
-            if (admin_2) {
-                setEditingAdmin(admin_2);
-                setFormData({
-                    first_name: admin_2.first_name,
-                    last_name: admin_2.last_name,
-                    email: admin_2.email,
-                    role: admin_2.role,
-                    status: admin_2.status || "faol",
-                    password: ""
-                });
-            } else {
-                setEditingAdmin(null);
-                setFormData({
-                    first_name: "",
-                    last_name: "",
-                    email: "",
-                    password: "",
-                    role: "admin",
-                    status: "faol"
-                });
+    if ($[27] === Symbol.for("react.memo_cache_sentinel")) {
+        t15 = ({
+            "AdminPanel[openModal]": (t16)=>{
+                const admin_2 = t16 === undefined ? null : t16;
+                if (admin_2) {
+                    setEditingAdmin(admin_2);
+                    setFormData({
+                        first_name: admin_2.first_name,
+                        last_name: admin_2.last_name,
+                        email: admin_2.email,
+                        role: admin_2.role,
+                        status: admin_2.status || "faol",
+                        password: ""
+                    });
+                } else {
+                    setEditingAdmin(null);
+                    setFormData({
+                        first_name: "",
+                        last_name: "",
+                        email: "",
+                        password: "",
+                        role: "admin",
+                        status: "faol"
+                    });
+                }
+                setIsModalOpen(true);
             }
-            setIsModalOpen(true);
-        };
-        $[29] = t15;
+        })["AdminPanel[openModal]"];
+        $[27] = t15;
     } else {
-        t15 = $[29];
+        t15 = $[27];
     }
     const openModal = t15;
     let t16;
-    if ($[30] !== editingAdmin || $[31] !== formData || $[32] !== saveMutation) {
-        t16 = (e)=>{
-            e.preventDefault();
-            if (!token) {
-                return;
+    if ($[28] !== editingAdmin || $[29] !== formData || $[30] !== saveMutation) {
+        t16 = ({
+            "AdminPanel[handleSave]": (e)=>{
+                e.preventDefault();
+                if (!token) {
+                    return;
+                }
+                const payload_0 = editingAdmin ? {
+                    _id: editingAdmin._id,
+                    first_name: formData.first_name,
+                    last_name: formData.last_name,
+                    email: formData.email,
+                    status: formData.status
+                } : {
+                    ...formData,
+                    role: formData.role.toLowerCase(),
+                    work_date: new Date().toISOString().split("T")[0]
+                };
+                saveMutation.mutate(payload_0);
             }
-            const payload_0 = editingAdmin ? {
-                _id: editingAdmin._id,
-                first_name: formData.first_name,
-                last_name: formData.last_name,
-                email: formData.email,
-                status: formData.status
-            } : {
-                ...formData,
-                role: formData.role.toLowerCase(),
-                work_date: new Date().toISOString().split("T")[0]
-            };
-            saveMutation.mutate(payload_0);
-        };
-        $[30] = editingAdmin;
-        $[31] = formData;
-        $[32] = saveMutation;
-        $[33] = t16;
+        })["AdminPanel[handleSave]"];
+        $[28] = editingAdmin;
+        $[29] = formData;
+        $[30] = saveMutation;
+        $[31] = t16;
     } else {
-        t16 = $[33];
+        t16 = $[31];
     }
     const handleSave = t16;
+    const roleTone = _AdminPanelRoleTone;
+    const statusTone = _AdminPanelStatusTone;
     let t17;
-    if ($[34] === Symbol.for("react.memo_cache_sentinel")) {
-        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-            className: "text-lg md:text-xl font-semibold",
-            children: "Adminlar boshqaruvi"
-        }, void 0, false, {
-            fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 354,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        $[34] = t17;
-    } else {
-        t17 = $[34];
-    }
     let t18;
-    if ($[35] === Symbol.for("react.memo_cache_sentinel")) {
-        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__["Search"], {
-            className: "absolute left-3 top-1/2 -translate-y-1/2 text-zinc-500",
-            size: 14
+    let t19;
+    if ($[32] === Symbol.for("react.memo_cache_sentinel")) {
+        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "pointer-events-none absolute -top-24 left-1/2 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-primary/10 blur-[120px]"
         }, void 0, false, {
             fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 361,
+            lineNumber: 424,
             columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        $[35] = t18;
+        }, this);
+        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "pointer-events-none absolute -bottom-40 -right-24 h-[520px] w-[520px] rounded-full bg-blue-500/10 blur-[140px]"
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 425,
+            columnNumber: 11
+        }, this);
+        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "pointer-events-none absolute -bottom-40 -left-24 h-[520px] w-[520px] rounded-full bg-emerald-500/10 blur-[140px]"
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 426,
+            columnNumber: 11
+        }, this);
+        $[32] = t17;
+        $[33] = t18;
+        $[34] = t19;
     } else {
-        t18 = $[35];
-    }
-    let t19;
-    if ($[36] === Symbol.for("react.memo_cache_sentinel")) {
-        t19 = (e_0)=>setSearchTerm(e_0.target.value);
-        $[36] = t19;
-    } else {
-        t19 = $[36];
+        t17 = $[32];
+        t18 = $[33];
+        t19 = $[34];
     }
     let t20;
-    if ($[37] !== searchTerm) {
-        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "relative flex-1 min-w-[140px]",
-            children: [
-                t18,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                    type: "text",
-                    placeholder: "Qidiruv...",
-                    value: searchTerm,
-                    onChange: t19,
-                    className: "w-full bg-background border border-zinc-800 rounded-lg py-1.5 pl-8 pr-2 text-xs md:text-sm outline-none focus:ring-1 focus:ring-zinc-700"
-                }, void 0, false, {
-                    fileName: "[project]/app/(main)/adminss/page.tsx",
-                    lineNumber: 375,
-                    columnNumber: 63
-                }, ("TURBOPACK compile-time value", void 0))
-            ]
-        }, void 0, true, {
-            fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 375,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        $[37] = searchTerm;
-        $[38] = t20;
-    } else {
-        t20 = $[38];
-    }
     let t21;
-    if ($[39] === Symbol.for("react.memo_cache_sentinel")) {
-        t21 = ()=>openModal(null);
-        $[39] = t21;
-    } else {
-        t21 = $[39];
-    }
     let t22;
-    if ($[40] === Symbol.for("react.memo_cache_sentinel")) {
-        t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2d$plus$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__UserPlus$3e$__["UserPlus"], {
-            size: 14
-        }, void 0, false, {
-            fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 390,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        $[40] = t22;
+    if ($[35] === Symbol.for("react.memo_cache_sentinel")) {
+        t20 = {
+            opacity: 0,
+            y: 14
+        };
+        t21 = {
+            opacity: 1,
+            y: 0
+        };
+        t22 = {
+            duration: 0.4,
+            ease: "easeOut"
+        };
+        $[35] = t20;
+        $[36] = t21;
+        $[37] = t22;
     } else {
-        t22 = $[40];
+        t20 = $[35];
+        t21 = $[36];
+        t22 = $[37];
     }
     let t23;
-    if ($[41] === Symbol.for("react.memo_cache_sentinel")) {
-        t23 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-            onClick: t21,
-            className: "flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs md:text-sm bg-zinc-100 text-black hover:bg-zinc-300 transition-all whitespace-nowrap",
+    if ($[38] === Symbol.for("react.memo_cache_sentinel")) {
+        t23 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             children: [
-                t22,
-                " ",
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    className: "hidden xs:inline",
-                    children: "Qo'shish"
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex items-center gap-2 text-primary",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__["Shield"], {
+                            size: 18
+                        }, void 0, false, {
+                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                            lineNumber: 461,
+                            columnNumber: 70
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "text-[11px] font-black uppercase tracking-[0.25em] text-muted-foreground",
+                            children: "Admin Control"
+                        }, void 0, false, {
+                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                            lineNumber: 461,
+                            columnNumber: 90
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                    lineNumber: 461,
+                    columnNumber: 16
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                    className: "mt-2 text-2xl sm:text-3xl font-black tracking-tight",
+                    children: "Adminlar boshqaruvi"
                 }, void 0, false, {
                     fileName: "[project]/app/(main)/adminss/page.tsx",
-                    lineNumber: 397,
-                    columnNumber: 197
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    className: "xs:hidden",
-                    children: "+"
+                    lineNumber: 461,
+                    columnNumber: 207
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "mt-2 text-sm text-muted-foreground",
+                    children: "Admin qo‘shish, tahrirlash, status va o‘chirish amallari."
                 }, void 0, false, {
                     fileName: "[project]/app/(main)/adminss/page.tsx",
-                    lineNumber: 397,
-                    columnNumber: 247
-                }, ("TURBOPACK compile-time value", void 0))
+                    lineNumber: 461,
+                    columnNumber: 299
+                }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 397,
+            lineNumber: 461,
             columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        $[41] = t23;
+        }, this);
+        $[38] = t23;
     } else {
-        t23 = $[41];
+        t23 = $[38];
     }
     let t24;
-    if ($[42] === Symbol.for("react.memo_cache_sentinel")) {
-        t24 = (e_1)=>setFilterStatus(e_1.target.value);
-        $[42] = t24;
+    if ($[39] === Symbol.for("react.memo_cache_sentinel")) {
+        t24 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__["Search"], {
+            className: "absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground",
+            size: 16
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 468,
+            columnNumber: 11
+        }, this);
+        $[39] = t24;
     } else {
-        t24 = $[42];
+        t24 = $[39];
     }
     let t25;
+    if ($[40] === Symbol.for("react.memo_cache_sentinel")) {
+        t25 = ({
+            "AdminPanel[<input>.onChange]": (e_0)=>setSearchTerm(e_0.target.value)
+        })["AdminPanel[<input>.onChange]"];
+        $[40] = t25;
+    } else {
+        t25 = $[40];
+    }
     let t26;
     let t27;
+    if ($[41] !== searchTerm) {
+        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+            type: "text",
+            placeholder: "Qidiruv: ism, email...",
+            value: searchTerm,
+            onChange: t25,
+            className: "w-full rounded-2xl border border-border bg-background/60 py-3 pl-11 pr-4 text-sm outline-none focus:ring-2 focus:ring-ring transition"
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 485,
+            columnNumber: 11
+        }, this);
+        t27 = !!searchTerm && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+            type: "button",
+            onClick: {
+                "AdminPanel[<button>.onClick]": ()=>setSearchTerm("")
+            }["AdminPanel[<button>.onClick]"],
+            className: "absolute right-3 top-1/2 -translate-y-1/2 rounded-xl border border-border bg-background/60 p-1.5 hover:bg-muted/60 transition",
+            "aria-label": "Clear",
+            title: "Tozalash",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
+                size: 14
+            }, void 0, false, {
+                fileName: "[project]/app/(main)/adminss/page.tsx",
+                lineNumber: 488,
+                columnNumber: 214
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 486,
+            columnNumber: 27
+        }, this);
+        $[41] = searchTerm;
+        $[42] = t26;
+        $[43] = t27;
+    } else {
+        t26 = $[42];
+        t27 = $[43];
+    }
     let t28;
-    if ($[43] === Symbol.for("react.memo_cache_sentinel")) {
-        t25 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-            value: "",
-            children: "All"
-        }, void 0, false, {
+    if ($[44] !== t26 || $[45] !== t27) {
+        t28 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "relative flex-1 sm:w-[320px]",
+            children: [
+                t24,
+                t26,
+                t27
+            ]
+        }, void 0, true, {
             fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 414,
+            lineNumber: 498,
             columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-            value: "faol",
-            children: "Faol"
-        }, void 0, false, {
-            fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 415,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        t27 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-            value: "tatilda",
-            children: "Tatilda"
-        }, void 0, false, {
-            fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 416,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        t28 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-            value: "ishdan bo'shatilgan",
-            children: "Nofaol"
-        }, void 0, false, {
-            fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 417,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        $[43] = t25;
+        }, this);
         $[44] = t26;
         $[45] = t27;
         $[46] = t28;
     } else {
-        t25 = $[43];
-        t26 = $[44];
-        t27 = $[45];
         t28 = $[46];
     }
     let t29;
-    if ($[47] !== filterStatus) {
-        t29 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-            value: filterStatus,
-            onChange: t24,
-            className: "w-full appearance-none bg-background border border-zinc-800 rounded-lg py-1.5 pl-2 pr-7 text-xs md:text-sm outline-none focus:ring-1 focus:ring-zinc-700 cursor-pointer text-zinc-400",
-            children: [
-                t25,
-                t26,
-                t27,
-                t28
-            ]
-        }, void 0, true, {
-            fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 430,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        $[47] = filterStatus;
-        $[48] = t29;
+    if ($[47] === Symbol.for("react.memo_cache_sentinel")) {
+        t29 = ({
+            "AdminPanel[<button>.onClick]": ()=>openModal(null)
+        })["AdminPanel[<button>.onClick]"];
+        $[47] = t29;
     } else {
-        t29 = $[48];
+        t29 = $[47];
     }
     let t30;
-    if ($[49] === Symbol.for("react.memo_cache_sentinel")) {
-        t30 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
-            className: "absolute right-2 top-1/2 -translate-y-1/2 text-zinc-500 pointer-events-none",
-            size: 12
-        }, void 0, false, {
+    if ($[48] === Symbol.for("react.memo_cache_sentinel")) {
+        t30 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+            onClick: t29,
+            className: "inline-flex items-center justify-center gap-2 rounded-2xl bg-primary text-primary-foreground px-4 py-3 text-sm font-black hover:opacity-90 transition shadow-sm",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2d$plus$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__UserPlus$3e$__["UserPlus"], {
+                    size: 16
+                }, void 0, false, {
+                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                    lineNumber: 516,
+                    columnNumber: 205
+                }, this),
+                "Qo'shish"
+            ]
+        }, void 0, true, {
             fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 438,
+            lineNumber: 516,
             columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        $[49] = t30;
+        }, this);
+        $[48] = t30;
     } else {
-        t30 = $[49];
+        t30 = $[48];
     }
     let t31;
-    if ($[50] !== t29) {
-        t31 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "relative min-w-[80px]",
-            children: [
-                t29,
-                t30
-            ]
-        }, void 0, true, {
-            fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 445,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        $[50] = t29;
-        $[51] = t31;
+    if ($[49] === Symbol.for("react.memo_cache_sentinel")) {
+        t31 = ({
+            "AdminPanel[<select>.onChange]": (e_1)=>setFilterStatus(e_1.target.value)
+        })["AdminPanel[<select>.onChange]"];
+        $[49] = t31;
     } else {
-        t31 = $[51];
+        t31 = $[49];
     }
     let t32;
-    if ($[52] !== t20 || $[53] !== t31) {
-        t32 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6",
-            children: [
-                t17,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-wrap items-center gap-2 w-full md:w-auto",
-                    children: [
-                        t20,
-                        t23,
-                        t31
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/(main)/adminss/page.tsx",
-                    lineNumber: 453,
-                    columnNumber: 114
-                }, ("TURBOPACK compile-time value", void 0))
-            ]
-        }, void 0, true, {
-            fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 453,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        $[52] = t20;
-        $[53] = t31;
-        $[54] = t32;
-    } else {
-        t32 = $[54];
-    }
     let t33;
-    if ($[55] === Symbol.for("react.memo_cache_sentinel")) {
-        t33 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
-            className: "text-zinc-500 text-[10px] md:text-[12px] uppercase ",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                        className: "p-3",
-                        children: "Ism Familiya"
-                    }, void 0, false, {
-                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                        lineNumber: 462,
-                        columnNumber: 86
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                        className: "p-3",
-                        children: "Email"
-                    }, void 0, false, {
-                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                        lineNumber: 462,
-                        columnNumber: 123
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                        className: "p-3",
-                        children: "Rol"
-                    }, void 0, false, {
-                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                        lineNumber: 462,
-                        columnNumber: 153
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                        className: "p-3",
-                        children: "Holat"
-                    }, void 0, false, {
-                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                        lineNumber: 462,
-                        columnNumber: 181
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                        className: "p-3 text-right",
-                        children: "Amallar"
-                    }, void 0, false, {
-                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                        lineNumber: 462,
-                        columnNumber: 211
-                    }, ("TURBOPACK compile-time value", void 0))
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/(main)/adminss/page.tsx",
-                lineNumber: 462,
-                columnNumber: 82
-            }, ("TURBOPACK compile-time value", void 0))
-        }, void 0, false, {
-            fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 462,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        $[55] = t33;
-    } else {
-        t33 = $[55];
-    }
     let t34;
-    if ($[56] !== filteredData || $[57] !== handleDelete || $[58] !== handleStatusToggle || $[59] !== loading) {
-        t34 = loading ? [
-            ...Array(10)
-        ].map(_temp4) : filteredData.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
-                className: "hover:bg-zinc-800/30 transition-colors group",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                        className: "p-3 ",
-                        children: [
-                            item.first_name,
-                            " ",
-                            item.last_name
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                        lineNumber: 469,
-                        columnNumber: 151
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                        className: "p-3 font-mono text-[10px] md:text-xs",
-                        children: item.email
-                    }, void 0, false, {
-                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                        lineNumber: 469,
-                        columnNumber: 211
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                        className: "p-3",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "px-2 py-0.5 rounded  border border-zinc-700 text-zinc-400 text-[9px] md:text-[10px] font-bold uppercase whitespace-nowrap",
-                            children: item.role
-                        }, void 0, false, {
-                            fileName: "[project]/app/(main)/adminss/page.tsx",
-                            lineNumber: 469,
-                            columnNumber: 301
-                        }, ("TURBOPACK compile-time value", void 0))
-                    }, void 0, false, {
-                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                        lineNumber: 469,
-                        columnNumber: 281
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                        className: "p-3",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: `px-2 py-0.5 rounded-full text-[9px] md:text-[10px] font-bold border whitespace-nowrap ${item.status === "faol" ? "bg-emerald-500/10 text-emerald-400 border-emerald-500/20" : item.status === "tatilda" ? "bg-amber-500/10 text-amber-400 border-amber-500/20" : "bg-red-500/10 text-red-400 border-red-500/20"}`,
-                            children: item.status
-                        }, void 0, false, {
-                            fileName: "[project]/app/(main)/adminss/page.tsx",
-                            lineNumber: 469,
-                            columnNumber: 484
-                        }, ("TURBOPACK compile-time value", void 0))
-                    }, void 0, false, {
-                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                        lineNumber: 469,
-                        columnNumber: 464
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                        className: "p-3 text-right",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex justify-end gap-1 md:gap-2",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    onClick: ()=>openModal(item),
-                                    className: "p-1.5 hover:bg-zinc-700 rounded-md text-zinc-400 hover:text-white transition-all",
-                                    title: "Tahrirlash",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$pencil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Pencil$3e$__["Pencil"], {
-                                        size: 14
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                                        lineNumber: 469,
-                                        columnNumber: 1066
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                }, void 0, false, {
-                                    fileName: "[project]/app/(main)/adminss/page.tsx",
-                                    lineNumber: 469,
-                                    columnNumber: 914
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                item.status === "ishdan bo'shatilgan" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    onClick: ()=>handleStatusToggle(item),
-                                    className: "p-1.5 rounded-md text-emerald-500 hover:bg-emerald-900/20 transition-all",
-                                    title: "Ishga qaytarish",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$rotate$2d$ccw$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__RotateCcw$3e$__["RotateCcw"], {
-                                        size: 14
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                                        lineNumber: 469,
-                                        columnNumber: 1295
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                }, void 0, false, {
-                                    fileName: "[project]/app/(main)/adminss/page.tsx",
-                                    lineNumber: 469,
-                                    columnNumber: 1137
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                    onClick: ()=>handleDelete(item._id),
-                                    className: "p-1.5 hover:bg-red-900/40 rounded-md text-red-500 transition-all",
-                                    title: "Butunlay o'chirish",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trash$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trash2$3e$__["Trash2"], {
-                                        size: 14
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                                        lineNumber: 469,
-                                        columnNumber: 1479
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                }, void 0, false, {
-                                    fileName: "[project]/app/(main)/adminss/page.tsx",
-                                    lineNumber: 469,
-                                    columnNumber: 1328
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/app/(main)/adminss/page.tsx",
-                            lineNumber: 469,
-                            columnNumber: 865
-                        }, ("TURBOPACK compile-time value", void 0))
-                    }, void 0, false, {
-                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                        lineNumber: 469,
-                        columnNumber: 834
-                    }, ("TURBOPACK compile-time value", void 0))
-                ]
-            }, item._id, true, {
-                fileName: "[project]/app/(main)/adminss/page.tsx",
-                lineNumber: 469,
-                columnNumber: 75
-            }, ("TURBOPACK compile-time value", void 0)));
-        $[56] = filteredData;
-        $[57] = handleDelete;
-        $[58] = handleStatusToggle;
-        $[59] = loading;
-        $[60] = t34;
-    } else {
-        t34 = $[60];
-    }
     let t35;
-    if ($[61] !== t34) {
-        t35 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "rounded-xl border border-zinc-800 overflow-hidden w-full overflow-x-auto",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
-                className: "w-full text-left min-w-[600px] md:min-w-full",
-                children: [
-                    t33,
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
-                        className: "text-xs md:text-sm divide-y divide-zinc-800",
-                        children: t34
-                    }, void 0, false, {
-                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                        lineNumber: 480,
-                        columnNumber: 170
-                    }, ("TURBOPACK compile-time value", void 0))
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/(main)/adminss/page.tsx",
-                lineNumber: 480,
-                columnNumber: 101
-            }, ("TURBOPACK compile-time value", void 0))
+    if ($[50] === Symbol.for("react.memo_cache_sentinel")) {
+        t32 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+            value: "",
+            children: "Barchasi"
         }, void 0, false, {
             fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 480,
+            lineNumber: 535,
             columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        $[61] = t34;
-        $[62] = t35;
+        }, this);
+        t33 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+            value: "faol",
+            children: "Faol"
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 536,
+            columnNumber: 11
+        }, this);
+        t34 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+            value: "tatilda",
+            children: "Tatilda"
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 537,
+            columnNumber: 11
+        }, this);
+        t35 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+            value: "ishdan bo'shatilgan",
+            children: "Nofaol"
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 538,
+            columnNumber: 11
+        }, this);
+        $[50] = t32;
+        $[51] = t33;
+        $[52] = t34;
+        $[53] = t35;
     } else {
-        t35 = $[62];
+        t32 = $[50];
+        t33 = $[51];
+        t34 = $[52];
+        t35 = $[53];
     }
     let t36;
-    if ($[63] !== t32 || $[64] !== t35) {
-        t36 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-6xl mx-auto",
+    if ($[54] !== filterStatus) {
+        t36 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+            value: filterStatus,
+            onChange: t31,
+            className: "w-full appearance-none rounded-2xl border border-border bg-background/60 py-3 pl-4 pr-10 text-sm outline-none focus:ring-2 focus:ring-ring transition cursor-pointer",
             children: [
                 t32,
+                t33,
+                t34,
                 t35
             ]
         }, void 0, true, {
             fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 488,
+            lineNumber: 551,
             columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        $[63] = t32;
-        $[64] = t35;
-        $[65] = t36;
+        }, this);
+        $[54] = filterStatus;
+        $[55] = t36;
     } else {
-        t36 = $[65];
+        t36 = $[55];
     }
     let t37;
-    if ($[66] !== editingAdmin || $[67] !== formData || $[68] !== handleSave || $[69] !== isModalOpen || $[70] !== saveMutation) {
-        t37 = isModalOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center z-[100] p-2 md:p-4 animate-in fade-in duration-200",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "bg-background border border-border w-full max-w-[500px] xs:max-w-md rounded-xl p-4 md:p-6 shadow-lg animate-in zoom-in-95 duration-200 overflow-y-auto max-h-[90vh]",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex items-center justify-between mb-4 md:mb-6",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-base md:text-lg font-semibold tracking-tight text-foreground",
-                                children: editingAdmin ? "Tahrirlash" : "Yangi admin"
-                            }, void 0, false, {
-                                fileName: "[project]/app/(main)/adminss/page.tsx",
-                                lineNumber: 497,
-                                columnNumber: 415
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                onClick: ()=>setIsModalOpen(false),
-                                className: "rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 p-1",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
-                                        size: 18,
-                                        className: "text-muted-foreground"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                                        lineNumber: 497,
-                                        columnNumber: 759
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "sr-only",
-                                        children: "Yopish"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                                        lineNumber: 497,
-                                        columnNumber: 808
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/(main)/adminss/page.tsx",
-                                lineNumber: 497,
-                                columnNumber: 547
-                            }, ("TURBOPACK compile-time value", void 0))
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                        lineNumber: 497,
-                        columnNumber: 351
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
-                        onSubmit: handleSave,
-                        className: "space-y-3 md:space-y-4 text-xs md:text-sm",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "grid grid-cols-1 xs:grid-cols-2 gap-3 md:gap-4",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "space-y-1.5 md:space-y-2",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                className: "text-[10px] md:text-xs font-medium text-muted-foreground uppercase ml-1",
-                                                children: "Ism"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/(main)/adminss/page.tsx",
-                                                lineNumber: 497,
-                                                columnNumber: 1050
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                placeholder: "Ism",
-                                                value: formData.first_name,
-                                                onChange: (e_2)=>setFormData({
-                                                        ...formData,
-                                                        first_name: e_2.target.value
-                                                    }),
-                                                className: "w-full flex h-9 md:h-10 rounded-md border border-input bg-background px-3 py-1 md:py-2 text-xs md:text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50",
-                                                required: true
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/(main)/adminss/page.tsx",
-                                                lineNumber: 497,
-                                                columnNumber: 1152
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                                        lineNumber: 497,
-                                        columnNumber: 1008
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "space-y-1.5 md:space-y-2",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                                className: "text-[10px] md:text-xs font-medium text-muted-foreground uppercase ml-1",
-                                                children: "Familiya"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/(main)/adminss/page.tsx",
-                                                lineNumber: 500,
-                                                columnNumber: 380
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                                placeholder: "Familiya",
-                                                value: formData.last_name,
-                                                onChange: (e_3)=>setFormData({
-                                                        ...formData,
-                                                        last_name: e_3.target.value
-                                                    }),
-                                                className: "w-full flex h-9 md:h-10 rounded-md border border-input bg-background px-3 py-1 md:py-2 text-xs md:text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50",
-                                                required: true
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/(main)/adminss/page.tsx",
-                                                lineNumber: 500,
-                                                columnNumber: 487
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                                        lineNumber: 500,
-                                        columnNumber: 338
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/(main)/adminss/page.tsx",
-                                lineNumber: 497,
-                                columnNumber: 944
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "space-y-1.5 md:space-y-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                        className: "text-[10px] md:text-xs font-medium text-muted-foreground uppercase ml-1",
-                                        children: "Email"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                                        lineNumber: 503,
-                                        columnNumber: 386
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        placeholder: "Email",
-                                        type: "email",
-                                        value: formData.email,
-                                        onChange: (e_4)=>setFormData({
-                                                ...formData,
-                                                email: e_4.target.value
-                                            }),
-                                        className: "w-full flex h-9 md:h-10 rounded-md border border-input bg-background px-3 py-1 md:py-2 text-xs md:text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50",
-                                        required: true
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                                        lineNumber: 503,
-                                        columnNumber: 490
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/(main)/adminss/page.tsx",
-                                lineNumber: 503,
-                                columnNumber: 344
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            !editingAdmin && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "space-y-1.5 md:space-y-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
-                                        className: "text-[10px] md:text-xs font-medium text-muted-foreground uppercase ml-1",
-                                        children: "Parol"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                                        lineNumber: 506,
-                                        columnNumber: 396
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                                        placeholder: "Parol",
-                                        type: "password",
-                                        value: formData.password,
-                                        onChange: (e_5)=>setFormData({
-                                                ...formData,
-                                                password: e_5.target.value
-                                            }),
-                                        className: "w-full flex h-9 md:h-10 rounded-md border border-input bg-background px-3 py-1 md:py-2 text-xs md:text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50",
-                                        required: true
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                                        lineNumber: 506,
-                                        columnNumber: 500
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/(main)/adminss/page.tsx",
-                                lineNumber: 506,
-                                columnNumber: 354
-                            }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex flex-col xs:flex-row gap-2 md:gap-3 pt-2 md:pt-4",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        type: "button",
-                                        onClick: ()=>setIsModalOpen(false),
-                                        className: "order-2 xs:order-1 flex-1 inline-flex items-center justify-center rounded-md text-xs md:text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 md:h-10 px-4 py-2",
-                                        children: "Bekor qilish"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                                        lineNumber: 509,
-                                        columnNumber: 408
-                                    }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        type: "submit",
-                                        disabled: saveMutation.isPending,
-                                        className: "order-1 xs:order-2 flex-1 inline-flex items-center justify-center rounded-md text-xs md:text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring bg-primary text-primary-foreground hover:bg-primary/90 h-9 md:h-10 px-4 py-2",
-                                        children: saveMutation.isPending ? "Saqlanmoqda..." : "Saqlash"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                                        lineNumber: 509,
-                                        columnNumber: 823
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/app/(main)/adminss/page.tsx",
-                                lineNumber: 509,
-                                columnNumber: 337
-                            }, ("TURBOPACK compile-time value", void 0))
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/app/(main)/adminss/page.tsx",
-                        lineNumber: 497,
-                        columnNumber: 862
-                    }, ("TURBOPACK compile-time value", void 0))
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/(main)/adminss/page.tsx",
-                lineNumber: 497,
-                columnNumber: 170
-            }, ("TURBOPACK compile-time value", void 0))
+    if ($[56] === Symbol.for("react.memo_cache_sentinel")) {
+        t37 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
+            className: "absolute right-4 top-1/2 -translate-y-1/2 text-muted-foreground pointer-events-none",
+            size: 16
         }, void 0, false, {
             fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 497,
-            columnNumber: 26
-        }, ("TURBOPACK compile-time value", void 0));
-        $[66] = editingAdmin;
-        $[67] = formData;
-        $[68] = handleSave;
-        $[69] = isModalOpen;
-        $[70] = saveMutation;
-        $[71] = t37;
+            lineNumber: 559,
+            columnNumber: 11
+        }, this);
+        $[56] = t37;
     } else {
-        t37 = $[71];
+        t37 = $[56];
     }
     let t38;
-    if ($[72] !== t36 || $[73] !== t37) {
+    if ($[57] !== t36) {
         t38 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "w-full p-2 sm:p-4 md:p-6 min-h-screen overflow-x-hidden",
+            className: "relative w-full sm:w-[150px]",
             children: [
                 t36,
                 t37
             ]
         }, void 0, true, {
             fileName: "[project]/app/(main)/adminss/page.tsx",
-            lineNumber: 521,
+            lineNumber: 566,
             columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0));
-        $[72] = t36;
-        $[73] = t37;
-        $[74] = t38;
+        }, this);
+        $[57] = t36;
+        $[58] = t38;
     } else {
-        t38 = $[74];
+        t38 = $[58];
     }
-    return t38;
-};
-_s(AdminPanel, "VITCwyKDbV+b2oxdIR+t8Sns3Eg=", false, function() {
+    let t39;
+    if ($[59] !== t28 || $[60] !== t38) {
+        t39 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4",
+            children: [
+                t23,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex flex-col sm:flex-row gap-2 sm:items-center w-full lg:w-auto",
+                    children: [
+                        t28,
+                        t30,
+                        t38
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                    lineNumber: 574,
+                    columnNumber: 100
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 574,
+            columnNumber: 11
+        }, this);
+        $[59] = t28;
+        $[60] = t38;
+        $[61] = t39;
+    } else {
+        t39 = $[61];
+    }
+    let t40;
+    if ($[62] === Symbol.for("react.memo_cache_sentinel")) {
+        t40 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+            size: 14
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 583,
+            columnNumber: 11
+        }, this);
+        $[62] = t40;
+    } else {
+        t40 = $[62];
+    }
+    let t41;
+    if ($[63] !== filteredData.length) {
+        t41 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "inline-flex items-center gap-2",
+            children: [
+                t40,
+                "Natija: ",
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
+                    className: "text-foreground",
+                    children: filteredData.length
+                }, void 0, false, {
+                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                    lineNumber: 590,
+                    columnNumber: 73
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 590,
+            columnNumber: 11
+        }, this);
+        $[63] = filteredData.length;
+        $[64] = t41;
+    } else {
+        t41 = $[64];
+    }
+    const t42 = loading ? "loading..." : "ready";
+    let t43;
+    if ($[65] !== t42) {
+        t43 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "font-mono",
+            children: t42
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 599,
+            columnNumber: 11
+        }, this);
+        $[65] = t42;
+        $[66] = t43;
+    } else {
+        t43 = $[66];
+    }
+    let t44;
+    if ($[67] !== t41 || $[68] !== t43) {
+        t44 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "mt-4 flex items-center justify-between text-xs text-muted-foreground",
+            children: [
+                t41,
+                t43
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 607,
+            columnNumber: 11
+        }, this);
+        $[67] = t41;
+        $[68] = t43;
+        $[69] = t44;
+    } else {
+        t44 = $[69];
+    }
+    let t45;
+    if ($[70] !== t39 || $[71] !== t44) {
+        t45 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+            initial: t20,
+            animate: t21,
+            transition: t22,
+            className: "rounded-3xl border border-border bg-card/70 backdrop-blur supports-[backdrop-filter]:bg-card/50 p-5 sm:p-6 shadow-sm",
+            children: [
+                t39,
+                t44
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 616,
+            columnNumber: 11
+        }, this);
+        $[70] = t39;
+        $[71] = t44;
+        $[72] = t45;
+    } else {
+        t45 = $[72];
+    }
+    let t46;
+    if ($[73] === Symbol.for("react.memo_cache_sentinel")) {
+        t46 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex items-center gap-2",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$badge$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BadgeCheck$3e$__["BadgeCheck"], {
+                    size: 16,
+                    className: "text-primary"
+                }, void 0, false, {
+                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                    lineNumber: 625,
+                    columnNumber: 52
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                    className: "text-sm font-black uppercase tracking-widest",
+                    children: "Admins"
+                }, void 0, false, {
+                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                    lineNumber: 625,
+                    columnNumber: 101
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 625,
+            columnNumber: 11
+        }, this);
+        $[73] = t46;
+    } else {
+        t46 = $[73];
+    }
+    let t47;
+    if ($[74] === Symbol.for("react.memo_cache_sentinel")) {
+        t47 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex items-center justify-between gap-3 px-5 sm:px-6 py-4 border-b border-border",
+            children: [
+                t46,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "hidden sm:flex items-center gap-2 text-xs text-muted-foreground",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
+                            size: 14
+                        }, void 0, false, {
+                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                            lineNumber: 632,
+                            columnNumber: 195
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            children: "Ro\u2018yxat & amallar"
+                        }, void 0, false, {
+                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                            lineNumber: 632,
+                            columnNumber: 213
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                    lineNumber: 632,
+                    columnNumber: 114
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 632,
+            columnNumber: 11
+        }, this);
+        $[74] = t47;
+    } else {
+        t47 = $[74];
+    }
+    let t48;
+    if ($[75] === Symbol.for("react.memo_cache_sentinel")) {
+        t48 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
+            className: "sticky top-0 z-10 bg-card/80 backdrop-blur border-b border-border",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                className: "text-[11px] uppercase text-muted-foreground font-black tracking-widest",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                        className: "p-4",
+                        children: "Admin"
+                    }, void 0, false, {
+                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                        lineNumber: 639,
+                        columnNumber: 183
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                        className: "p-4",
+                        children: "Email"
+                    }, void 0, false, {
+                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                        lineNumber: 639,
+                        columnNumber: 213
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                        className: "p-4",
+                        children: "Rol"
+                    }, void 0, false, {
+                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                        lineNumber: 639,
+                        columnNumber: 243
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                        className: "p-4",
+                        children: "Holat"
+                    }, void 0, false, {
+                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                        lineNumber: 639,
+                        columnNumber: 271
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                        className: "p-4 text-right",
+                        children: "Amallar"
+                    }, void 0, false, {
+                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                        lineNumber: 639,
+                        columnNumber: 301
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/(main)/adminss/page.tsx",
+                lineNumber: 639,
+                columnNumber: 96
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 639,
+            columnNumber: 11
+        }, this);
+        $[75] = t48;
+    } else {
+        t48 = $[75];
+    }
+    let t49;
+    if ($[76] !== deleteMutation || $[77] !== filteredData || $[78] !== handleDelete || $[79] !== handleStatusToggle || $[80] !== loading || $[81] !== statusMutation) {
+        t49 = loading ? Array.from({
+            length: 10
+        }).map(_AdminPanelAnonymous) : filteredData.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+            className: "border-t border-border",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                colSpan: 5,
+                className: "p-10 text-center",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "mx-auto max-w-md space-y-2",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "mx-auto w-fit rounded-2xl border border-border bg-background/60 p-3",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$triangle$2d$alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__AlertTriangle$3e$__["AlertTriangle"], {
+                                className: "text-muted-foreground"
+                            }, void 0, false, {
+                                fileName: "[project]/app/(main)/adminss/page.tsx",
+                                lineNumber: 648,
+                                columnNumber: 277
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                            lineNumber: 648,
+                            columnNumber: 192
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "font-black",
+                            children: "Hech narsa topilmadi"
+                        }, void 0, false, {
+                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                            lineNumber: 648,
+                            columnNumber: 334
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-sm text-muted-foreground",
+                            children: "Qidiruv so‘zini yoki status filtrini o‘zgartirib ko‘ring."
+                        }, void 0, false, {
+                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                            lineNumber: 648,
+                            columnNumber: 384
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                    lineNumber: 648,
+                    columnNumber: 148
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/(main)/adminss/page.tsx",
+                lineNumber: 648,
+                columnNumber: 103
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 648,
+            columnNumber: 64
+        }, this) : filteredData.map({
+            "AdminPanel[filteredData.map()]": (item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                    className: "border-t border-border hover:bg-muted/40 transition-colors",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                            className: "p-4",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex items-center gap-3",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "h-10 w-10 rounded-2xl border border-border bg-background/60 flex items-center justify-center font-black",
+                                        children: [
+                                            (item.first_name?.[0] || "A").toUpperCase(),
+                                            (item.last_name?.[0] || "").toUpperCase()
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                                        lineNumber: 649,
+                                        columnNumber: 200
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "min-w-0",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "font-bold truncate",
+                                                children: [
+                                                    item.first_name,
+                                                    " ",
+                                                    item.last_name
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/(main)/adminss/page.tsx",
+                                                lineNumber: 649,
+                                                columnNumber: 440
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-xs text-muted-foreground truncate max-w-[340px]",
+                                                children: [
+                                                    "ID: ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "font-mono",
+                                                        children: item._id
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                                                        lineNumber: 649,
+                                                        columnNumber: 584
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/(main)/adminss/page.tsx",
+                                                lineNumber: 649,
+                                                columnNumber: 512
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                                        lineNumber: 649,
+                                        columnNumber: 415
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/(main)/adminss/page.tsx",
+                                lineNumber: 649,
+                                columnNumber: 159
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                            lineNumber: 649,
+                            columnNumber: 139
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                            className: "p-4",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "text-muted-foreground font-mono text-xs",
+                                children: item.email
+                            }, void 0, false, {
+                                fileName: "[project]/app/(main)/adminss/page.tsx",
+                                lineNumber: 649,
+                                columnNumber: 670
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                            lineNumber: 649,
+                            columnNumber: 650
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                            className: "p-4",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Badge, {
+                                tone: roleTone(item.role),
+                                children: item.role
+                            }, void 0, false, {
+                                fileName: "[project]/app/(main)/adminss/page.tsx",
+                                lineNumber: 649,
+                                columnNumber: 772
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                            lineNumber: 649,
+                            columnNumber: 752
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                            className: "p-4",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Badge, {
+                                tone: statusTone(item.status),
+                                children: item.status
+                            }, void 0, false, {
+                                fileName: "[project]/app/(main)/adminss/page.tsx",
+                                lineNumber: 649,
+                                columnNumber: 850
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                            lineNumber: 649,
+                            columnNumber: 830
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                            className: "p-4 text-right",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex justify-end gap-2",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: {
+                                            "AdminPanel[filteredData.map() > <button>.onClick]": ()=>openModal(item)
+                                        }["AdminPanel[filteredData.map() > <button>.onClick]"],
+                                        className: "inline-flex items-center justify-center rounded-2xl border border-border bg-background/50 px-3 py-2 hover:bg-muted/60 transition text-muted-foreground hover:text-foreground",
+                                        title: "Tahrirlash",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$pencil$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Pencil$3e$__["Pencil"], {
+                                            size: 16
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                                            lineNumber: 651,
+                                            columnNumber: 273
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                                        lineNumber: 649,
+                                        columnNumber: 985
+                                    }, this),
+                                    item.status === "ishdan bo'shatilgan" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: {
+                                            "AdminPanel[filteredData.map() > <button>.onClick]": ()=>handleStatusToggle(item)
+                                        }["AdminPanel[filteredData.map() > <button>.onClick]"],
+                                        disabled: statusMutation.isPending,
+                                        className: "inline-flex items-center justify-center rounded-2xl border border-emerald-500/20 bg-emerald-500/10 px-3 py-2 hover:opacity-90 transition text-emerald-500 disabled:opacity-60",
+                                        title: "Ishga qaytarish",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$rotate$2d$ccw$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__RotateCcw$3e$__["RotateCcw"], {
+                                            size: 16
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                                            lineNumber: 653,
+                                            columnNumber: 315
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                                        lineNumber: 651,
+                                        columnNumber: 343
+                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: {
+                                            "AdminPanel[filteredData.map() > <button>.onClick]": ()=>handleStatusToggle(item)
+                                        }["AdminPanel[filteredData.map() > <button>.onClick]"],
+                                        disabled: statusMutation.isPending,
+                                        className: "inline-flex items-center justify-center rounded-2xl border border-rose-500/20 bg-rose-500/10 px-3 py-2 hover:opacity-90 transition text-rose-500 disabled:opacity-60",
+                                        title: "Ishdan bo'shatish",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
+                                            size: 16
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                                            lineNumber: 655,
+                                            columnNumber: 308
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                                        lineNumber: 653,
+                                        columnNumber: 350
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: {
+                                            "AdminPanel[filteredData.map() > <button>.onClick]": ()=>handleDelete(item._id)
+                                        }["AdminPanel[filteredData.map() > <button>.onClick]"],
+                                        disabled: deleteMutation.isPending,
+                                        className: "inline-flex items-center justify-center rounded-2xl border border-rose-500/20 bg-rose-500/10 px-3 py-2 hover:opacity-90 transition text-rose-500 disabled:opacity-60",
+                                        title: "Butunlay o'chirish",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trash$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trash2$3e$__["Trash2"], {
+                                            size: 16
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                                            lineNumber: 657,
+                                            columnNumber: 309
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                                        lineNumber: 655,
+                                        columnNumber: 333
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/(main)/adminss/page.tsx",
+                                lineNumber: 649,
+                                columnNumber: 945
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                            lineNumber: 649,
+                            columnNumber: 914
+                        }, this)
+                    ]
+                }, item._id, true, {
+                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                    lineNumber: 649,
+                    columnNumber: 49
+                }, this)
+        }["AdminPanel[filteredData.map()]"]);
+        $[76] = deleteMutation;
+        $[77] = filteredData;
+        $[78] = handleDelete;
+        $[79] = handleStatusToggle;
+        $[80] = loading;
+        $[81] = statusMutation;
+        $[82] = t49;
+    } else {
+        t49 = $[82];
+    }
+    let t50;
+    if ($[83] !== t49) {
+        t50 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "rounded-3xl border border-border bg-card/70 backdrop-blur supports-[backdrop-filter]:bg-card/50 shadow-sm overflow-hidden",
+            children: [
+                t47,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "w-full overflow-x-auto",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
+                        className: "w-full min-w-[880px] text-left",
+                        children: [
+                            t48,
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
+                                className: "text-sm",
+                                children: t49
+                            }, void 0, false, {
+                                fileName: "[project]/app/(main)/adminss/page.tsx",
+                                lineNumber: 671,
+                                columnNumber: 250
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                        lineNumber: 671,
+                        columnNumber: 195
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                    lineNumber: 671,
+                    columnNumber: 155
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 671,
+            columnNumber: 11
+        }, this);
+        $[83] = t49;
+        $[84] = t50;
+    } else {
+        t50 = $[84];
+    }
+    let t51;
+    if ($[85] !== editingAdmin || $[86] !== formData || $[87] !== handleSave || $[88] !== isModalOpen || $[89] !== saveMutation) {
+        t51 = isModalOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+            className: "fixed inset-0 z-[200] flex items-center justify-center p-4",
+            initial: {
+                opacity: 0
+            },
+            animate: {
+                opacity: 1
+            },
+            exit: {
+                opacity: 0
+            },
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "absolute inset-0 bg-black/45",
+                    onClick: {
+                        "AdminPanel[<div>.onClick]": ()=>setIsModalOpen(false)
+                    }["AdminPanel[<div>.onClick]"]
+                }, void 0, false, {
+                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                    lineNumber: 685,
+                    columnNumber: 8
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                    initial: {
+                        opacity: 0,
+                        y: 16,
+                        scale: 0.98
+                    },
+                    animate: {
+                        opacity: 1,
+                        y: 0,
+                        scale: 1
+                    },
+                    exit: {
+                        opacity: 0,
+                        y: 16,
+                        scale: 0.98
+                    },
+                    transition: {
+                        duration: 0.18,
+                        ease: "easeOut"
+                    },
+                    className: "relative w-full max-w-lg rounded-3xl border border-border bg-card/80 backdrop-blur supports-[backdrop-filter]:bg-card/60 shadow-2xl overflow-hidden",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center justify-between px-5 sm:px-6 py-4 border-b border-border",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: "text-base sm:text-lg font-black tracking-tight",
+                                            children: editingAdmin ? "Adminni tahrirlash" : "Yangi admin qo\u2018shish"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                                            lineNumber: 702,
+                                            columnNumber: 267
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-xs text-muted-foreground mt-1",
+                                            children: "Ma’lumotlarni to‘ldiring va saqlang."
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                                            lineNumber: 702,
+                                            columnNumber: 402
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                                    lineNumber: 702,
+                                    columnNumber: 262
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    onClick: {
+                                        "AdminPanel[<button>.onClick]": ()=>setIsModalOpen(false)
+                                    }["AdminPanel[<button>.onClick]"],
+                                    className: "inline-flex h-10 w-10 items-center justify-center rounded-2xl border border-border bg-background/50 hover:bg-muted/60 transition",
+                                    "aria-label": "Close",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
+                                        size: 18
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/(main)/adminss/page.tsx",
+                                        lineNumber: 704,
+                                        columnNumber: 206
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                                    lineNumber: 702,
+                                    columnNumber: 498
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                            lineNumber: 702,
+                            columnNumber: 170
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+                            onSubmit: handleSave,
+                            className: "p-5 sm:p-6 space-y-4",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "grid grid-cols-1 sm:grid-cols-2 gap-4",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "space-y-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                    className: "text-[11px] font-black uppercase tracking-widest text-muted-foreground",
+                                                    children: "Ism"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                                                    lineNumber: 704,
+                                                    columnNumber: 379
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                    required: true,
+                                                    placeholder: "Ism",
+                                                    value: formData.first_name,
+                                                    onChange: {
+                                                        "AdminPanel[<input>.onChange]": (e_2)=>setFormData({
+                                                                ...formData,
+                                                                first_name: e_2.target.value
+                                                            })
+                                                    }["AdminPanel[<input>.onChange]"],
+                                                    className: "w-full rounded-2xl border border-border bg-background/60 px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-ring transition"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                                                    lineNumber: 704,
+                                                    columnNumber: 480
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                                            lineNumber: 704,
+                                            columnNumber: 352
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "space-y-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                    className: "text-[11px] font-black uppercase tracking-widest text-muted-foreground",
+                                                    children: "Familiya"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                                                    lineNumber: 709,
+                                                    columnNumber: 225
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                    required: true,
+                                                    placeholder: "Familiya",
+                                                    value: formData.last_name,
+                                                    onChange: {
+                                                        "AdminPanel[<input>.onChange]": (e_3)=>setFormData({
+                                                                ...formData,
+                                                                last_name: e_3.target.value
+                                                            })
+                                                    }["AdminPanel[<input>.onChange]"],
+                                                    className: "w-full rounded-2xl border border-border bg-background/60 px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-ring transition"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                                                    lineNumber: 709,
+                                                    columnNumber: 331
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                                            lineNumber: 709,
+                                            columnNumber: 198
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                                    lineNumber: 704,
+                                    columnNumber: 297
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "space-y-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                            className: "text-[11px] font-black uppercase tracking-widest text-muted-foreground",
+                                            children: "Email"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                                            lineNumber: 714,
+                                            columnNumber: 231
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                            required: true,
+                                            type: "email",
+                                            placeholder: "Email",
+                                            value: formData.email,
+                                            onChange: {
+                                                "AdminPanel[<input>.onChange]": (e_4)=>setFormData({
+                                                        ...formData,
+                                                        email: e_4.target.value
+                                                    })
+                                            }["AdminPanel[<input>.onChange]"],
+                                            className: "w-full rounded-2xl border border-border bg-background/60 px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-ring transition"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                                            lineNumber: 714,
+                                            columnNumber: 334
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                                    lineNumber: 714,
+                                    columnNumber: 204
+                                }, this),
+                                !editingAdmin && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "space-y-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                            className: "text-[11px] font-black uppercase tracking-widest text-muted-foreground",
+                                            children: "Parol"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                                            lineNumber: 719,
+                                            columnNumber: 241
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                            required: true,
+                                            type: "password",
+                                            placeholder: "Parol",
+                                            value: formData.password,
+                                            onChange: {
+                                                "AdminPanel[<input>.onChange]": (e_5)=>setFormData({
+                                                        ...formData,
+                                                        password: e_5.target.value
+                                                    })
+                                            }["AdminPanel[<input>.onChange]"],
+                                            className: "w-full rounded-2xl border border-border bg-background/60 px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-ring transition"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                                            lineNumber: 719,
+                                            columnNumber: 344
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                                    lineNumber: 719,
+                                    columnNumber: 214
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex flex-col sm:flex-row gap-2 pt-2",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            type: "button",
+                                            onClick: {
+                                                "AdminPanel[<button>.onClick]": ()=>setIsModalOpen(false)
+                                            }["AdminPanel[<button>.onClick]"],
+                                            className: "flex-1 rounded-2xl border border-border bg-background/50 px-4 py-3 text-sm font-bold hover:bg-muted/60 transition",
+                                            children: "Bekor qilish"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                                            lineNumber: 724,
+                                            columnNumber: 251
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            type: "submit",
+                                            disabled: saveMutation.isPending,
+                                            className: "flex-1 rounded-2xl bg-primary text-primary-foreground px-4 py-3 text-sm font-black hover:opacity-90 transition shadow-sm disabled:opacity-60",
+                                            children: saveMutation.isPending ? "Saqlanmoqda..." : "Saqlash"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                                            lineNumber: 726,
+                                            columnNumber: 195
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                                    lineNumber: 724,
+                                    columnNumber: 197
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/(main)/adminss/page.tsx",
+                            lineNumber: 704,
+                            columnNumber: 236
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                    lineNumber: 687,
+                    columnNumber: 41
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 679,
+            columnNumber: 26
+        }, this);
+        $[85] = editingAdmin;
+        $[86] = formData;
+        $[87] = handleSave;
+        $[88] = isModalOpen;
+        $[89] = saveMutation;
+        $[90] = t51;
+    } else {
+        t51 = $[90];
+    }
+    let t52;
+    if ($[91] !== t51) {
+        t52 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+            children: t51
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 738,
+            columnNumber: 11
+        }, this);
+        $[91] = t51;
+        $[92] = t52;
+    } else {
+        t52 = $[92];
+    }
+    let t53;
+    if ($[93] !== t45 || $[94] !== t50 || $[95] !== t52) {
+        t53 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "relative min-h-screen w-full p-4 sm:p-6 lg:p-8 overflow-hidden text-foreground",
+            children: [
+                t17,
+                t18,
+                t19,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "relative mx-auto max-w-6xl space-y-5",
+                    children: [
+                        t45,
+                        t50,
+                        t52
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/(main)/adminss/page.tsx",
+                    lineNumber: 746,
+                    columnNumber: 122
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 746,
+            columnNumber: 11
+        }, this);
+        $[93] = t45;
+        $[94] = t50;
+        $[95] = t52;
+        $[96] = t53;
+    } else {
+        t53 = $[96];
+    }
+    return t53;
+}
+_s1(AdminPanel, "VITCwyKDbV+b2oxdIR+t8Sns3Eg=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$QueryClientProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useQueryClient"],
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$useQuery$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useQuery"],
@@ -1228,27 +1759,66 @@ _s(AdminPanel, "VITCwyKDbV+b2oxdIR+t8Sns3Eg=", false, function() {
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$tanstack$2f$react$2d$query$2f$build$2f$modern$2f$useMutation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMutation"]
     ];
 });
-_c1 = AdminPanel;
-const __TURBOPACK__default__export__ = AdminPanel;
-function _temp() {
-    return alert("Xatolik yuz berdi");
-}
-function _temp2(err) {
-    alert(err.response?.status === 403 ? "Huquqingiz yetarli emas!" : "Xatolik yuz berdi");
-}
-function _temp3(err_0) {
-    alert(err_0.response?.data?.message || "Xatolik yuz berdi");
-}
-function _temp4(_, index) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SkeletonRow, {}, `skeleton-${index}`, false, {
+_c2 = AdminPanel;
+function _AdminPanelAnonymous(_, i) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SkeletonRow, {}, i, false, {
         fileName: "[project]/app/(main)/adminss/page.tsx",
-        lineNumber: 541,
+        lineNumber: 757,
         columnNumber: 10
     }, this);
 }
-var _c, _c1;
-__turbopack_context__.k.register(_c, "SkeletonRow");
-__turbopack_context__.k.register(_c1, "AdminPanel");
+function _AdminPanelStatusTone(status) {
+    const s_0 = (status || "").toLowerCase();
+    if (s_0 === "faol") {
+        return "green";
+    }
+    if (s_0 === "tatilda") {
+        return "amber";
+    }
+    if (s_0.includes("ishdan")) {
+        return "red";
+    }
+    return "neutral";
+}
+function _AdminPanelRoleTone(role) {
+    const r = (role || "").toLowerCase();
+    if (r.includes("super") || r.includes("owner")) {
+        return "amber";
+    }
+    if (r.includes("admin")) {
+        return "blue";
+    }
+    return "neutral";
+}
+function _temp4(err_0) {
+    alert(err_0.response?.data?.message || "Xatolik yuz berdi");
+}
+function _temp3(err) {
+    alert(err.response?.status === 403 ? "Huquqingiz yetarli emas!" : "Xatolik yuz berdi");
+}
+function _temp2() {
+    return alert("Xatolik yuz berdi");
+}
+function _temp(_, i) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+        className: "p-4",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "h-4 w-full max-w-[240px] rounded-lg bg-muted animate-pulse"
+        }, void 0, false, {
+            fileName: "[project]/app/(main)/adminss/page.tsx",
+            lineNumber: 792,
+            columnNumber: 38
+        }, this)
+    }, i, false, {
+        fileName: "[project]/app/(main)/adminss/page.tsx",
+        lineNumber: 792,
+        columnNumber: 10
+    }, this);
+}
+var _c, _c1, _c2;
+__turbopack_context__.k.register(_c, "Badge");
+__turbopack_context__.k.register(_c1, "SkeletonRow");
+__turbopack_context__.k.register(_c2, "AdminPanel");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
